@@ -3,7 +3,7 @@ package manager;
 import model.Contact;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
+import org.openqa.selenium.WebElement;
 
 
 public class HelperContact extends HelperBase{
@@ -25,6 +25,11 @@ public class HelperContact extends HelperBase{
     }
 
     public void submit(){
+        click(By.xpath("//b[text()='Save']"));
+    }
 
+    public String getText() {
+        WebElement text = wd.findElement(By.cssSelector("div [class^='contact-item_card']:first-child"));
+        return text.getText();
     }
 }
