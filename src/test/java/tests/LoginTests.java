@@ -1,5 +1,6 @@
 package tests;
 
+import model.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -22,23 +23,26 @@ public class LoginTests extends TestBase{
 
     }
 
-    public void loginSuccessNew(){
+    public void loginSuccessModel(){
+        User user = new User().withEmail("kate@gmail.com").withPassword("Kkate12345$");
         app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillLoginRegistrationForm("kate@gmail.com","Kkate12345$");
+        app.getHelperUser().fillLoginRegistrationForm(user);
         app.getHelperUser().submitLogin();
         //logout
 
     }
     @Test
     public void loginWrongEmail(){
+        User user = new User().withEmail("kateagmail.com").withPassword("Kkate12345$");
         app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillLoginRegistrationForm("kateagmail.com","Kkate12345$");
+        app.getHelperUser().fillLoginRegistrationForm(user);
         app.getHelperUser().submitLogin();
         Assert.assertFalse(app.getHelperUser().isLogged());
         Assert.assertTrue(app.getHelperUser().isErrorMessageDisplayed("Wrong email or password"));
     }
     @Test
     public void loginWrongPassword(){
+        User user = new User().withEmail("kate@gmail.com").withPassword("ka123");
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm("kate@gmail.com","ka123");
         app.getHelperUser().submitLogin();
@@ -47,8 +51,9 @@ public class LoginTests extends TestBase{
     }
     @Test
     public void loginUnregisteredUser(){
+        User user = new User().withEmail("sfkdlfgdl@.com").withPassword("Kkate12345$");
         app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillLoginRegistrationForm("sfkdlfgdl@.com","Kkate12345$");
+        app.getHelperUser().fillLoginRegistrationForm(user);
         app.getHelperUser().submitLogin();
         Assert.assertFalse(app.getHelperUser().isLogged());
         Assert.assertTrue(app.getHelperUser().isErrorMessageDisplayed("Wrong email or password"));
