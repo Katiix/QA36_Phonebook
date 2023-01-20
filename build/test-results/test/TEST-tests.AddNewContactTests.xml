@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.AddNewContactTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-18T19:58:11" hostname="WIN-UK2CA3OCGGH" time="4.07">
+<testsuite name="tests.AddNewContactTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-20T09:54:31" hostname="WIN-UK2CA3OCGGH" time="5.274">
   <properties/>
-  <testcase name="addNewContactSuccess" classname="tests.AddNewContactTests" time="4.07"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="addNewContactSuccessRequiredFields" classname="tests.AddNewContactTests" time="5.274"/>
+  <system-out><![CDATA[Contact(name=Gomer1064, lastName=Simpson, phone=0865341064, email=alinaw1064@gmail.com, address=NY, description=null)
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
