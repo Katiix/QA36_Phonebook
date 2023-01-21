@@ -1,9 +1,7 @@
 package manager;
 
 import model.Contact;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 
 import java.util.List;
 
@@ -55,13 +53,51 @@ public class HelperContact extends HelperBase{
         return false;
     }
 
-    public boolean isContactAddedByEmail(String email) {
-        List<WebElement> list = wd.findElements(By.cssSelector("h3"));
+    public boolean isContactAddedByEmail(Contact contact) {
+        List<WebElement> list = wd.findElements(By.cssSelector("h2"));
         for(WebElement el: list){
-            if(el.getText().equals(email)){
-                return true;
+            if(el.getText().equals(contact.getName())){
+                el.click();
+                String text = wd.findElement(By.xpath("//div[starts-with(@class,'contact-item-detailed_card')]")).getText();
+                if(text.contains(contact.getEmail())){
+                    return true;
+                }
             }
         }
         return false;
+    }
+
+    public boolean isErrorMessageDisplayed(String message) {
+        Alert alert = wd.switchTo().alert();
+        String text = alert.getText();
+        System.out.println(text);
+        alert.accept();
+        return text.contains(message);
+    }
+
+    public boolean isAddTabActive() {
+        return wd.findElements(By.cssSelector("a[href='/add'][class='active']")).size()>0;
+    }
+
+    public boolean isAlertPresent() {
+
+        boolean presentFlag = false;
+
+        try {
+
+            // Check the presence of alert
+            Alert alert = wd.switchTo().alert();
+            // Alert present; set the flag
+            presentFlag = true;
+            // if present consume the alert
+
+
+        } catch (NoAlertPresentException ex) {
+            // Alert not present
+            ex.printStackTrace();
+        }
+
+        return presentFlag;
+
     }
 }
