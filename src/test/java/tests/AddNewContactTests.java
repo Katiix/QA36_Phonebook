@@ -28,6 +28,7 @@ public class AddNewContactTests extends TestBase {
                 .address("Kyiv, Ukraine")
                 .description("Childhood friend")
                 .build();
+        logger.info("Test started with data: " + contact.toString());
         app.getHelperContact().openContactForm();
         pause(2000);
         app.getHelperContact().fillContactForm(contact);

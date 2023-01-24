@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LoginTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-24T18:57:05" hostname="WIN-UK2CA3OCGGH" time="1.235">
+  <properties/>
+  <testcase name="loginSuccess" classname="tests.LoginTests" time="1.235"/>
+  <system-out><![CDATA[20:57:00.742  INFO  tests.TestBase - The name of method is -->loginSuccess
+20:57:05.753  INFO  tests.TestBase - Login with valid data: email - kate@gmail.com, password - Kkate12345$
+20:57:06.987  INFO  tests.TestBase - Tests success
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

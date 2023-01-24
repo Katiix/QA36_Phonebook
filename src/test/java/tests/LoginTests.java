@@ -11,15 +11,17 @@ public class LoginTests extends TestBase{
     public void preCondition(){
         if(app.getHelperUser().isLogged()){
             app.getHelperUser().logout();
+            logger.info("I need logout");
         }
     }
     @Test
     public void loginSuccess(){
+        logger.info("Login with valid data: email - kate@gmail.com, password - Kkate12345$");
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm("kate@gmail.com","Kkate12345$");
         app.getHelperUser().submitLogin();
         Assert.assertTrue(app.getHelperUser().isLogged());
-        //logout
+        logger.info("Tests success");
 
     }
 
