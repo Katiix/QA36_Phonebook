@@ -3,3 +3,168 @@
 20:57:00.742  INFO  tests.TestBase - The name of method is -->loginSuccess
 20:57:05.753  INFO  tests.TestBase - Login with valid data: email - kate@gmail.com, password - Kkate12345$
 20:57:06.987  INFO  tests.TestBase - Tests success
+19:33:37.134  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+19:33:38.054  INFO  manager.ApplicationManager - Current url -->https://telranedu.web.app/home
+19:33:38.070  INFO  tests.TestBase - The name of method is -->addNewContactAddressBlank
+19:33:49.084  INFO  tests.TestBase - The name of method is -->addNewContactAddressNull
+19:33:53.468  INFO  tests.TestBase - The name of method is -->addNewContactBlankEmail
+19:33:53.630  INFO  tests.TestBase - The name of method is -->addNewContactBlankLastName
+19:33:54.011  INFO  tests.TestBase - The name of method is -->addNewContactBlankName
+19:33:54.168  INFO  tests.TestBase - The name of method is -->addNewContactExistingEmail
+19:33:56.540  INFO  tests.TestBase - The name of method is -->addNewContactMinimumCharAfterAtEmail
+19:33:58.906  INFO  tests.TestBase - The name of method is -->addNewContactMinimumCharBeforeAtEmail
+19:34:01.273  INFO  tests.TestBase - The name of method is -->addNewContactNonEnglishEmail
+19:34:03.640  INFO  tests.TestBase - The name of method is -->addNewContactNullEmail
+19:34:06.008  INFO  tests.TestBase - The name of method is -->addNewContactNullLastName
+19:34:06.376  INFO  tests.TestBase - The name of method is -->addNewContactNullName
+19:34:06.532  INFO  tests.TestBase - The name of method is -->addNewContactPhoneAlreadyExisting
+19:34:15.895  INFO  tests.TestBase - The name of method is -->addNewContactPhoneBlank
+19:34:25.238  INFO  tests.TestBase - The name of method is -->addNewContactPhoneMaximumNumbers
+19:35:44.272  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+19:35:44.936  INFO  manager.ApplicationManager - Current url -->https://telranedu.web.app/home
+19:35:44.953  INFO  tests.TestBase - The name of method is -->addNewContactAddressBlank
+19:35:55.736  INFO  tests.TestBase - The name of method is -->addNewContactAddressNull
+19:36:00.124  INFO  tests.TestBase - The name of method is -->addNewContactBlankEmail
+19:36:02.476  INFO  tests.TestBase - The name of method is -->addNewContactBlankLastName
+19:36:02.831  INFO  tests.TestBase - The name of method is -->addNewContactBlankName
+19:36:03.173  INFO  tests.TestBase - The name of method is -->addNewContactExistingEmail
+19:36:05.524  INFO  tests.TestBase - The name of method is -->addNewContactMinimumCharAfterAtEmail
+19:36:07.968  INFO  tests.TestBase - The name of method is -->addNewContactMinimumCharBeforeAtEmail
+19:36:10.352  INFO  tests.TestBase - The name of method is -->addNewContactNonEnglishEmail
+19:36:12.702  INFO  tests.TestBase - The name of method is -->addNewContactNullEmail
+19:36:15.156  INFO  tests.TestBase - The name of method is -->addNewContactNullLastName
+19:36:15.623  INFO  tests.TestBase - The name of method is -->addNewContactNullName
+19:36:15.994  INFO  tests.TestBase - The name of method is -->addNewContactPhoneAlreadyExisting
+19:36:23.060  INFO  tests.TestBase - The name of method is -->addNewContactPhoneBlank
+19:36:32.455  INFO  tests.TestBase - The name of method is -->addNewContactPhoneMaximumNumbers
+19:36:41.816  INFO  tests.TestBase - The name of method is -->addNewContactPhoneMinimumNumbers
+19:36:51.168  INFO  tests.TestBase - The name of method is -->addNewContactPhoneNotNumbers
+19:37:00.514  INFO  tests.TestBase - The name of method is -->addNewContactPhoneNull
+19:37:09.836  INFO  tests.TestBase - The name of method is -->addNewContactPhoneSpecialChars
+19:37:19.163  INFO  tests.TestBase - The name of method is -->addNewContactSuccess
+19:37:19.188  INFO  tests.TestBase - Test started with data: Contact(name=Alina1495, lastName=White, phone=0865341495, email=alinaw1495@gmail.com, address=Kyiv, Ukraine, description=Childhood friend)
+19:37:24.555  INFO  tests.TestBase - The name of method is -->addNewContactSuccessRequiredFields
+19:37:28.077  INFO  tests.TestBase - The name of method is -->addNewContactTwoAtEmail
+19:37:30.527  INFO  tests.TestBase - The name of method is -->addNewContactWrongEmail
+19:50:23.607  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+19:50:24.772  INFO  manager.ApplicationManager - Current url -->https://telranedu.web.app/home
+19:50:24.788  INFO  tests.TestBase - The name of method is -->loginSuccess
+19:50:29.844  INFO  tests.TestBase - Login with valid data: email - kate@gmail.com, password - Kkate12345$
+19:50:32.378  INFO  tests.TestBase - Test passed with success
+19:50:32.381  INFO  tests.TestBase - The name of method is -->loginUnregisteredUser
+19:50:32.416  INFO  tests.TestBase - I need logout
+19:50:32.417  INFO  tests.TestBase - Test starts with email: sfkdlfgdl@.com
+19:50:33.039  INFO  tests.TestBase - Test passed with success
+19:50:33.039  INFO  tests.TestBase - The name of method is -->loginWrongEmail
+19:50:38.092  INFO  tests.TestBase - Test starts with email: kateagmail.com
+19:50:38.721  INFO  tests.TestBase - Test passed with success
+19:50:38.722  INFO  tests.TestBase - The name of method is -->loginWrongPassword
+19:50:43.772  INFO  tests.TestBase - Test starts with password: ka123
+19:50:44.383  INFO  tests.TestBase - Test passed with success
+19:55:37.390  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+19:55:39.890  INFO  manager.ApplicationManager - Current url -->https://telranedu.web.app/home
+19:55:39.906  INFO  tests.TestBase - The name of method is -->addNewContactAddressBlank
+19:55:45.150  INFO  tests.TestBase - Test started with address:  
+19:55:50.602  INFO  tests.TestBase - The name of method is -->addNewContactAddressNull
+19:55:50.609  INFO  tests.TestBase - Test started with address: 
+19:55:54.975  INFO  tests.TestBase - The name of method is -->addNewContactBlankEmail
+19:55:54.980  INFO  tests.TestBase - Test started with email:  
+19:55:57.313  INFO  tests.TestBase - The name of method is -->addNewContactBlankLastName
+19:55:57.319  INFO  tests.TestBase - Test started with last name:  
+19:55:57.662  INFO  tests.TestBase - The name of method is -->addNewContactBlankName
+19:55:57.667  INFO  tests.TestBase - Test started with name:  
+19:55:58.006  INFO  tests.TestBase - The name of method is -->addNewContactExistingEmail
+19:55:58.010  INFO  tests.TestBase - Test started with email: alinaw2023@gmail.com
+19:56:00.342  INFO  tests.TestBase - The name of method is -->addNewContactMinimumCharAfterAtEmail
+19:56:00.348  INFO  tests.TestBase - Test started with email: alinaw1967@
+19:56:02.773  INFO  tests.TestBase - The name of method is -->addNewContactMinimumCharBeforeAtEmail
+19:56:02.779  INFO  tests.TestBase - Test started with email: @gmail.com
+19:56:05.139  INFO  tests.TestBase - The name of method is -->addNewContactNonEnglishEmail
+19:56:05.145  INFO  tests.TestBase - Test started with email: алина1183@мэйл.ком
+19:56:07.476  INFO  tests.TestBase - The name of method is -->addNewContactNullEmail
+19:56:07.482  INFO  tests.TestBase - Test started with email: 
+19:56:09.945  INFO  tests.TestBase - The name of method is -->addNewContactNullLastName
+19:56:09.951  INFO  tests.TestBase - Test started with last name: 
+19:56:10.398  INFO  tests.TestBase - The name of method is -->addNewContactNullName
+19:56:10.402  INFO  tests.TestBase - Test started with name: 
+19:56:10.769  INFO  tests.TestBase - The name of method is -->addNewContactPhoneAlreadyExisting
+19:56:10.775  INFO  tests.TestBase - Test started with phone: 08653466365
+19:56:17.798  INFO  tests.TestBase - The name of method is -->addNewContactPhoneBlank
+19:56:17.804  INFO  tests.TestBase - Test started with phone:  
+19:56:27.212  INFO  tests.TestBase - The name of method is -->addNewContactPhoneMaximumNumbers
+19:56:27.217  INFO  tests.TestBase - Test started with phone: 08655555555555555555555
+19:56:36.574  INFO  tests.TestBase - The name of method is -->addNewContactPhoneMinimumNumbers
+19:56:36.580  INFO  tests.TestBase - Test started with phone: 086555
+19:56:45.912  INFO  tests.TestBase - The name of method is -->addNewContactPhoneNotNumbers
+19:56:45.916  INFO  tests.TestBase - Test started with phone: 086oooooooooo
+19:56:55.254  INFO  tests.TestBase - The name of method is -->addNewContactPhoneNull
+19:56:55.258  INFO  tests.TestBase - Test started with phone: 
+19:57:04.582  INFO  tests.TestBase - The name of method is -->addNewContactPhoneSpecialChars
+19:57:04.587  INFO  tests.TestBase - Test started with phone: 086$4667876
+19:57:13.941  INFO  tests.TestBase - The name of method is -->addNewContactSuccess
+19:57:13.957  INFO  tests.TestBase - Test started with data: Contact(name=Alina1041, lastName=White, phone=0865341041, email=alinaw1041@gmail.com, address=Kyiv, Ukraine, description=Childhood friend)
+19:57:19.352  INFO  tests.TestBase - The name of method is -->addNewContactSuccessRequiredFields
+19:57:19.357  INFO  tests.TestBase - Test started with data: Contact(name=Alina1578, lastName=White, phone=0865341578, email=alinaw1578@gmail.com, address=Kyiv, Ukraine, description=null)
+19:57:22.917  INFO  tests.TestBase - The name of method is -->addNewContactTwoAtEmail
+19:57:22.922  INFO  tests.TestBase - Test started with email: alinaw1139@@gmail.com
+19:57:25.377  INFO  tests.TestBase - The name of method is -->addNewContactWrongEmail
+19:57:25.382  INFO  tests.TestBase - Test started with email: alinaw1505gmail.com
+20:11:12.076  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+20:11:12.765  INFO  manager.ApplicationManager - Current url -->https://telranedu.web.app/home
+20:11:12.785  INFO  tests.TestBase - The name of method is -->addNewContactSuccess
+20:11:18.029  INFO  tests.TestBase - Test started with data: Contact(name=Alina1493, lastName=White, phone=0865341493, email=alinaw1493@gmail.com, address=Kyiv, Ukraine, description=Childhood friend)
+20:11:22.125  INFO  tests.TestBase - Test passed with success
+20:12:44.804  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+20:12:45.475  INFO  manager.ApplicationManager - Current url -->https://telranedu.web.app/home
+20:12:45.491  INFO  tests.TestBase - The name of method is -->addNewContactAddressBlank
+20:12:50.734  INFO  tests.TestBase - Test started with address:  
+20:12:52.245  INFO  tests.TestBase - Test passed with success
+20:12:52.248  INFO  tests.TestBase - The name of method is -->addNewContactAddressNull
+20:12:52.254  INFO  tests.TestBase - Test started with address: 
+20:12:52.625  INFO  tests.TestBase - Test passed with success
+20:12:52.626  INFO  tests.TestBase - The name of method is -->addNewContactBlankEmail
+20:12:52.632  INFO  tests.TestBase - Test started with email:  
+20:12:52.965  INFO  tests.TestBase - The name of method is -->addNewContactBlankLastName
+20:12:52.971  INFO  tests.TestBase - Test started with last name:  
+20:12:53.126  INFO  tests.TestBase - The name of method is -->addNewContactBlankName
+20:12:53.135  INFO  tests.TestBase - Test started with name:  
+20:12:53.482  INFO  tests.TestBase - Test passed with success
+20:12:53.482  INFO  tests.TestBase - The name of method is -->addNewContactExistingEmail
+20:12:53.488  INFO  tests.TestBase - Test started with email: alinaw2023@gmail.com
+20:12:53.827  INFO  tests.TestBase - The name of method is -->addNewContactMinimumCharAfterAtEmail
+20:12:53.834  INFO  tests.TestBase - Test started with email: alinaw1193@
+20:12:54.026  INFO  tests.TestBase - The name of method is -->addNewContactMinimumCharBeforeAtEmail
+20:12:54.032  INFO  tests.TestBase - Test started with email: @gmail.com
+20:12:54.470  INFO  tests.TestBase - The name of method is -->addNewContactNonEnglishEmail
+20:12:54.476  INFO  tests.TestBase - Test started with email: алина1720@мэйл.ком
+20:12:54.627  INFO  tests.TestBase - The name of method is -->addNewContactNullEmail
+20:12:54.633  INFO  tests.TestBase - Test started with email: 
+20:12:54.996  INFO  tests.TestBase - The name of method is -->addNewContactNullLastName
+20:12:55.002  INFO  tests.TestBase - Test started with last name: 
+20:12:55.153  INFO  tests.TestBase - The name of method is -->addNewContactNullName
+20:12:55.158  INFO  tests.TestBase - Test started with name: 
+20:12:55.502  INFO  tests.TestBase - Test passed with success
+20:12:55.503  INFO  tests.TestBase - The name of method is -->addNewContactPhoneAlreadyExisting
+20:12:55.508  INFO  tests.TestBase - Test started with phone: 08653466365
+20:12:55.696  INFO  tests.TestBase - The name of method is -->addNewContactPhoneBlank
+20:12:55.702  INFO  tests.TestBase - Test started with phone:  
+20:12:56.145  INFO  tests.TestBase - The name of method is -->addNewContactPhoneMaximumNumbers
+20:12:56.150  INFO  tests.TestBase - Test started with phone: 08655555555555555555555
+20:12:56.305  INFO  tests.TestBase - The name of method is -->addNewContactPhoneMinimumNumbers
+20:12:56.311  INFO  tests.TestBase - Test started with phone: 086555
+20:12:56.660  INFO  tests.TestBase - The name of method is -->addNewContactPhoneNotNumbers
+20:12:56.665  INFO  tests.TestBase - Test started with phone: 086oooooooooo
+20:12:56.816  INFO  tests.TestBase - The name of method is -->addNewContactPhoneNull
+20:12:56.822  INFO  tests.TestBase - Test started with phone: 
+20:12:57.145  INFO  tests.TestBase - The name of method is -->addNewContactPhoneSpecialChars
+20:12:57.150  INFO  tests.TestBase - Test started with phone: 086$4667876
+20:12:57.304  INFO  tests.TestBase - The name of method is -->addNewContactSuccess
+20:12:57.330  INFO  tests.TestBase - Test started with data: Contact(name=Alina1483, lastName=White, phone=0865341483, email=alinaw1483@gmail.com, address=Kyiv, Ukraine, description=Childhood friend)
+20:12:58.974  INFO  tests.TestBase - Test passed with success
+20:12:58.975  INFO  tests.TestBase - The name of method is -->addNewContactSuccessRequiredFields
+20:12:58.980  INFO  tests.TestBase - Test started with data: Contact(name=Alina1540, lastName=White, phone=0865341540, email=alinaw1540@gmail.com, address=Kyiv, Ukraine, description=null)
+20:13:00.758  INFO  tests.TestBase - Test passed with success
+20:13:00.759  INFO  tests.TestBase - The name of method is -->addNewContactTwoAtEmail
+20:13:00.763  INFO  tests.TestBase - Test started with email: alinaw1981@@gmail.com
+20:13:01.250  INFO  tests.TestBase - The name of method is -->addNewContactWrongEmail
+20:13:01.255  INFO  tests.TestBase - Test started with email: alinaw1607gmail.com

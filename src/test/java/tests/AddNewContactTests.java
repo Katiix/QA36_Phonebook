@@ -3,7 +3,6 @@ package tests;
 import model.Contact;
 import model.User;
 import org.testng.Assert;
-import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -37,6 +36,7 @@ public class AddNewContactTests extends TestBase {
         Assert.assertTrue(app.getHelperContact().isContactAddedByName(contact.getName()));
         Assert.assertTrue(app.getHelperContact().isContactAddedByPhone(contact.getPhone()));
         Assert.assertTrue(app.getHelperContact().isContactAddedByEmail(contact));
+        logger.info("Test passed with success");
 
     }
 
@@ -45,12 +45,13 @@ public class AddNewContactTests extends TestBase {
         Random random = new Random();
         int i = random.nextInt(1000)+1000;
         Contact contact = Contact.builder()
-                .name("Gomer"+i)
-                .lastName("Simpson")
+                .name("Alina"+i)
+                .lastName("White")
                 .phone("086534"+i)
                 .email("alinaw"+i+"@gmail.com")
-                .address("NY")
+                .address("Kyiv, Ukraine")
                 .build();
+        logger.info("Test started with data: " + contact.toString());
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
         pause(2000);
@@ -58,6 +59,7 @@ public class AddNewContactTests extends TestBase {
         Assert.assertTrue(app.getHelperContact().isContactAddedByName(contact.getName()));
         Assert.assertTrue(app.getHelperContact().isContactAddedByPhone(contact.getPhone()));
         Assert.assertTrue(app.getHelperContact().isContactAddedByEmail(contact));
+        logger.info("Test passed with success");
     }
     @Test
     public void addNewContactWrongEmail(){
@@ -71,11 +73,13 @@ public class AddNewContactTests extends TestBase {
                 .address("Kyiv, Ukraine")
                 .description("Childhood friend")
                 .build();
+        logger.info("Test started with email: " + contact.getEmail());
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
         app.getHelperContact().submit();
         pause(2000);
         Assert.assertTrue(app.getHelperContact().isErrorMessageDisplayed("Email not valid:"));
+        logger.info("Test passed with success");
     }
     @Test
     public void addNewContactNullEmail(){
@@ -89,11 +93,13 @@ public class AddNewContactTests extends TestBase {
                 .address("Kyiv, Ukraine")
                 .description("Childhood friend")
                 .build();
+        logger.info("Test started with email: " + contact.getEmail());
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
         app.getHelperContact().submit();
         pause(2000);
         Assert.assertTrue(app.getHelperContact().isErrorMessageDisplayed("Email not valid:"));
+        logger.info("Test passed with success");
     }
     @Test
     public void addNewContactBlankEmail(){
@@ -107,11 +113,14 @@ public class AddNewContactTests extends TestBase {
                 .address("Kyiv, Ukraine")
                 .description("Childhood friend")
                 .build();
+        logger.info("Test started with email: " + contact.getEmail());
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
         app.getHelperContact().submit();
         pause(2000);
         Assert.assertTrue(app.getHelperContact().isErrorMessageDisplayed("Email not valid:"));
+        logger.info("Test passed with success");
+
     }
     @Test
     public void addNewContactTwoAtEmail(){
@@ -125,11 +134,14 @@ public class AddNewContactTests extends TestBase {
                 .address("Kyiv, Ukraine")
                 .description("Childhood friend")
                 .build();
+        logger.info("Test started with email: " + contact.getEmail());
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
         app.getHelperContact().submit();
         pause(2000);
         Assert.assertTrue(app.getHelperContact().isErrorMessageDisplayed("Email not valid:"));
+        logger.info("Test passed with success");
+
     }
     @Test
     public void addNewContactMinimumCharBeforeAtEmail(){
@@ -143,11 +155,14 @@ public class AddNewContactTests extends TestBase {
                 .address("Kyiv, Ukraine")
                 .description("Childhood friend")
                 .build();
+        logger.info("Test started with email: " + contact.getEmail());
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
         app.getHelperContact().submit();
         pause(2000);
         Assert.assertTrue(app.getHelperContact().isErrorMessageDisplayed("Email not valid:"));
+        logger.info("Test passed with success");
+
     }
     @Test
     public void addNewContactMinimumCharAfterAtEmail(){
@@ -161,11 +176,14 @@ public class AddNewContactTests extends TestBase {
                 .address("Kyiv, Ukraine")
                 .description("Childhood friend")
                 .build();
+        logger.info("Test started with email: " + contact.getEmail());
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
         app.getHelperContact().submit();
         pause(2000);
         Assert.assertTrue(app.getHelperContact().isErrorMessageDisplayed("Email not valid:"));
+        logger.info("Test passed with success");
+
     }
     @Test
     public void addNewContactNonEnglishEmail(){
@@ -179,11 +197,14 @@ public class AddNewContactTests extends TestBase {
                 .address("Kyiv, Ukraine")
                 .description("Childhood friend")
                 .build();
+        logger.info("Test started with email: " + contact.getEmail());
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
         app.getHelperContact().submit();
         pause(2000);
         Assert.assertTrue(app.getHelperContact().isErrorMessageDisplayed("Email not valid:"));
+        logger.info("Test passed with success");
+
     }
     @Test
     public void addNewContactExistingEmail(){
@@ -197,11 +218,14 @@ public class AddNewContactTests extends TestBase {
                 .address("Kyiv, Ukraine")
                 .description("Childhood friend")
                 .build();
+        logger.info("Test started with email: " + contact.getEmail());
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
         app.getHelperContact().submit();
         pause(2000);
         Assert.assertTrue(app.getHelperContact().isErrorMessageDisplayed("Email not valid:"));
+        logger.info("Test passed with success");
+
     }
     @Test
     public void addNewContactNullName(){
@@ -215,10 +239,13 @@ public class AddNewContactTests extends TestBase {
                 .address("Kyiv, Ukraine")
                 .description("Childhood friend")
                 .build();
+        logger.info("Test started with name: " + contact.getName());
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
         app.getHelperContact().submit();
         Assert.assertTrue(app.getHelperContact().isAddTabActive());
+        logger.info("Test passed with success");
+
     }
     @Test
     public void addNewContactBlankName(){
@@ -232,10 +259,13 @@ public class AddNewContactTests extends TestBase {
                 .address("Kyiv, Ukraine")
                 .description("Childhood friend")
                 .build();
+        logger.info("Test started with name: " + contact.getName());
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
         app.getHelperContact().submit();
         Assert.assertTrue(app.getHelperContact().isAddTabActive());
+        logger.info("Test passed with success");
+
     }
     @Test
     public void addNewContactNullLastName(){
@@ -249,10 +279,13 @@ public class AddNewContactTests extends TestBase {
                 .address("Kyiv, Ukraine")
                 .description("Childhood friend")
                 .build();
+        logger.info("Test started with last name: " + contact.getLastName());
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
         app.getHelperContact().submit();
         Assert.assertTrue(app.getHelperContact().isAddTabActive());
+        logger.info("Test passed with success");
+
     }
     @Test
     public void addNewContactBlankLastName(){
@@ -266,10 +299,13 @@ public class AddNewContactTests extends TestBase {
                 .address("Kyiv, Ukraine")
                 .description("Childhood friend")
                 .build();
+        logger.info("Test started with last name: " + contact.getLastName());
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
         app.getHelperContact().submit();
         Assert.assertTrue(app.getHelperContact().isAddTabActive());
+        logger.info("Test passed with success");
+
     }
 
     @Test
@@ -284,12 +320,15 @@ public class AddNewContactTests extends TestBase {
                 .address("")
                 .description("Childhood friend")
                 .build();
+        logger.info("Test started with address: " + contact.getAddress());
         app.getHelperContact().openContactForm();
         pause(2000);
         app.getHelperContact().fillContactForm(contact);
         pause(2000);
         app.getHelperContact().submit();
         Assert.assertTrue(app.getHelperContact().isAddTabActive());
+        logger.info("Test passed with success");
+
 
     }
     @Test
@@ -304,12 +343,15 @@ public class AddNewContactTests extends TestBase {
                 .address(" ")
                 .description("Childhood friend")
                 .build();
+        logger.info("Test started with address: " + contact.getAddress());
         app.getHelperContact().openContactForm();
         pause(2000);
         app.getHelperContact().fillContactForm(contact);
         pause(2000);
         app.getHelperContact().submit();
         Assert.assertTrue(app.getHelperContact().isAddTabActive());
+        logger.info("Test passed with success");
+
 
     }
     @Test
@@ -324,6 +366,7 @@ public class AddNewContactTests extends TestBase {
                 .address("Kyiv")
                 .description("Childhood friend")
                 .build();
+        logger.info("Test started with phone: " + contact.getPhone());
         app.getHelperContact().openContactForm();
         pause(2000);
         app.getHelperContact().fillContactForm(contact);
@@ -332,6 +375,7 @@ public class AddNewContactTests extends TestBase {
         pause(5000);
         Assert.assertTrue(app.getHelperContact().isErrorMessageDisplayed("Phone not valid"));
         Assert.assertTrue(app.getHelperContact().isAddTabActive());
+        logger.info("Test passed with success");
 
 
     }
@@ -347,6 +391,7 @@ public class AddNewContactTests extends TestBase {
                 .address("Kyiv")
                 .description("Childhood friend")
                 .build();
+        logger.info("Test started with phone: " + contact.getPhone());
         app.getHelperContact().openContactForm();
         pause(2000);
         app.getHelperContact().fillContactForm(contact);
@@ -355,6 +400,8 @@ public class AddNewContactTests extends TestBase {
         pause(5000);
         Assert.assertTrue(app.getHelperContact().isErrorMessageDisplayed("Phone not valid"));
         Assert.assertTrue(app.getHelperContact().isAddTabActive());
+        logger.info("Test passed with success");
+
     }
     @Test
     public void addNewContactPhoneNotNumbers(){
@@ -368,6 +415,7 @@ public class AddNewContactTests extends TestBase {
                 .address("Kyiv")
                 .description("Childhood friend")
                 .build();
+        logger.info("Test started with phone: " + contact.getPhone());
         app.getHelperContact().openContactForm();
         pause(2000);
         app.getHelperContact().fillContactForm(contact);
@@ -376,6 +424,8 @@ public class AddNewContactTests extends TestBase {
         pause(5000);
         Assert.assertTrue(app.getHelperContact().isErrorMessageDisplayed("Phone not valid"));
         Assert.assertTrue(app.getHelperContact().isAddTabActive());
+        logger.info("Test passed with success");
+
     }
     @Test
     public void addNewContactPhoneMinimumNumbers(){
@@ -389,6 +439,7 @@ public class AddNewContactTests extends TestBase {
                 .address("Kyiv")
                 .description("Childhood friend")
                 .build();
+        logger.info("Test started with phone: " + contact.getPhone());
         app.getHelperContact().openContactForm();
         pause(2000);
         app.getHelperContact().fillContactForm(contact);
@@ -397,6 +448,7 @@ public class AddNewContactTests extends TestBase {
         pause(5000);
         Assert.assertTrue(app.getHelperContact().isErrorMessageDisplayed("Phone not valid"));
         Assert.assertTrue(app.getHelperContact().isAddTabActive());
+        logger.info("Test passed with success");
     }
     @Test
     public void addNewContactPhoneMaximumNumbers(){
@@ -410,6 +462,7 @@ public class AddNewContactTests extends TestBase {
                 .address("Kyiv")
                 .description("Childhood friend")
                 .build();
+        logger.info("Test started with phone: " + contact.getPhone());
         app.getHelperContact().openContactForm();
         pause(2000);
         app.getHelperContact().fillContactForm(contact);
@@ -418,6 +471,7 @@ public class AddNewContactTests extends TestBase {
         pause(5000);
         Assert.assertTrue(app.getHelperContact().isErrorMessageDisplayed("Phone not valid"));
         Assert.assertTrue(app.getHelperContact().isAddTabActive());
+        logger.info("Test passed with success");
     }
     @Test
     public void addNewContactPhoneSpecialChars(){
@@ -431,6 +485,7 @@ public class AddNewContactTests extends TestBase {
                 .address("Kyiv")
                 .description("Childhood friend")
                 .build();
+        logger.info("Test started with phone: " + contact.getPhone());
         app.getHelperContact().openContactForm();
         pause(2000);
         app.getHelperContact().fillContactForm(contact);
@@ -439,6 +494,7 @@ public class AddNewContactTests extends TestBase {
         pause(5000);
         Assert.assertTrue(app.getHelperContact().isErrorMessageDisplayed("Phone not valid"));
         Assert.assertTrue(app.getHelperContact().isAddTabActive());
+        logger.info("Test passed with success");
     }
     @Test
     public void addNewContactPhoneAlreadyExisting(){
@@ -452,6 +508,7 @@ public class AddNewContactTests extends TestBase {
                 .address("Kyiv")
                 .description("Childhood friend")
                 .build();
+        logger.info("Test started with phone: " + contact.getPhone());
         app.getHelperContact().openContactForm();
         pause(2000);
         app.getHelperContact().fillContactForm(contact);
@@ -460,6 +517,8 @@ public class AddNewContactTests extends TestBase {
         pause(5000);
         Assert.assertTrue(app.getHelperContact().isErrorMessageDisplayed("Phone not valid"));
         Assert.assertTrue(app.getHelperContact().isAddTabActive());
+        logger.info("Test passed with success");
+
     }
     public void pause(int time){
         try {
