@@ -1,0 +1,15 @@
+09:24:49.904  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+09:24:51.737  INFO  manager.ApplicationManager - Current url -->https://telranedu.web.app/home
+09:24:51.753  INFO  tests.TestBase - The name of method is -->loginSuccess
+09:24:56.765  INFO  tests.TestBase - Login with valid data: email - kate@gmail.com, password - Kkate12345$
+09:24:59.296  INFO  tests.TestBase - Test passed with success
+09:24:59.299  INFO  tests.TestBase - The name of method is -->loginUnregisteredUser
+09:24:59.333  INFO  tests.TestBase - I need logout
+09:24:59.334  INFO  tests.TestBase - Test starts with email: sfkdlfgdl@.com
+09:24:59.904  INFO  tests.TestBase - Test passed with success
+09:24:59.905  INFO  tests.TestBase - The name of method is -->loginWrongEmail
+09:25:04.911  INFO  tests.TestBase - Test starts with email: kateagmail.com
+09:25:05.528  INFO  tests.TestBase - Test passed with success
+09:25:05.529  INFO  tests.TestBase - The name of method is -->loginWrongPassword
+09:25:10.537  INFO  tests.TestBase - Test starts with password: ka123
+09:25:11.100  INFO  tests.TestBase - Test passed with success

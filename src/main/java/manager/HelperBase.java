@@ -24,4 +24,9 @@ public class HelperBase {
     }
 
 
+    public void test(String data){ //"30"
+        String locator = "//div[text()='"+data+"']";
+        click(By.xpath(locator));
+
+    }
 }

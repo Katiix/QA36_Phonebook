@@ -1,17 +1,22 @@
 package tests;
 
+import manager.ListenerTNG;
+import manager.ListenerWD;
 import model.User;
+import org.openqa.selenium.support.events.WebDriverListener;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
+@Listeners(ListenerTNG.class)
 public class LoginTests extends TestBase{
 
     @BeforeMethod
     public void preCondition(){
         if(app.getHelperUser().isLogged()){
             app.getHelperUser().logout();
-            logger.info("I need logout");
+            logger.info("Need logout");
+
         }
     }
     @Test

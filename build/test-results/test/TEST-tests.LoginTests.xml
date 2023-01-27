@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LoginTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-27T09:27:24" hostname="WIN-UK2CA3OCGGH" time="1.369">
+  <properties/>
+  <testcase name="loginSuccess" classname="tests.LoginTests" time="1.369"/>
+  <system-out><![CDATA[11:27:19.694  INFO  tests.TestBase - The name of method is -->loginSuccess
+11:27:19.696  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:27:24.714  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+11:27:24.716  INFO  manager.ListenerWD - List size is --> 0
+11:27:24.717  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess
+11:27:24.717  INFO  tests.TestBase - Login with valid data: email - kate@gmail.com, password - Kkate12345$
+11:27:24.718  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+11:27:24.734  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+11:27:24.770  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+11:27:24.784  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+11:27:24.850  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+11:27:24.865  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+11:27:24.928  INFO  manager.ListenerWD - Before find element --> By.cssSelector: button[name='login']
+11:27:24.942  INFO  manager.ListenerWD - After find element --> By.cssSelector: button[name='login']
+11:27:24.963  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:27:26.082  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+11:27:26.083  INFO  manager.ListenerWD - List size is --> 1
+11:27:26.084  INFO  tests.TestBase - Test passed with success
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
