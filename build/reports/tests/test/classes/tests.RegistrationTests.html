@@ -3,17 +3,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta http-equiv="x-ua-compatible" content="IE=edge"/>
-<title>Test results - Class tests.LoginTests</title>
+<title>Test results - Class tests.RegistrationTests</title>
 <link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
 <link href="../css/style.css" rel="stylesheet" type="text/css"/>
 <script src="../js/report.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="content">
-<h1>Class tests.LoginTests</h1>
+<h1>Class tests.RegistrationTests</h1>
 <div class="breadcrumbs">
 <a href="../index.html">all</a> &gt; 
-<a href="../packages/tests.html">tests</a> &gt; LoginTests</div>
+<a href="../packages/tests.html">tests</a> &gt; RegistrationTests</div>
 <div id="summary">
 <table>
 <tr>
@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">14</div>
+<div class="counter">5</div>
 <p>tests</p>
 </div>
 </td>
@@ -35,7 +35,7 @@
 </td>
 <td>
 <div class="infoBox" id="ignored">
-<div class="counter">13</div>
+<div class="counter">4</div>
 <p>ignored</p>
 </div>
 </td>
@@ -77,7 +77,7 @@
 <h3 class="failures">preCondition</h3>
 <span class="code">
 <pre>java.lang.NullPointerException
-	at tests.LoginTests.preCondition(LoginTests.java:23)
+	at tests.RegistrationTests.preCondition(RegistrationTests.java:12)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -143,107 +143,44 @@
 </tr>
 </thead>
 <tr>
-<td class="skipped">loginSuccess2[0](User(email=kate@gmail.com, password=Kkate12345$))</td>
-<td class="skipped">-</td>
-<td class="skipped">ignored</td>
-</tr>
-<tr>
-<td class="skipped">loginSuccess2[0](kate@gmail.com, Kkate12345$)</td>
-<td class="skipped">-</td>
-<td class="skipped">ignored</td>
-</tr>
-<tr>
-<td class="skipped">loginSuccess2[1](kate@gmail.com, Kkate12345$)</td>
-<td class="skipped">-</td>
-<td class="skipped">ignored</td>
-</tr>
-<tr>
-<td class="skipped">loginSuccess2[2](kate@gmail.com, Kkate12345$)</td>
-<td class="skipped">-</td>
-<td class="skipped">ignored</td>
-</tr>
-<tr>
-<td class="skipped">loginSuccessModelFormFile[0](User(email=kate@gmail.com, password=Kkate12345$))</td>
-<td class="skipped">-</td>
-<td class="skipped">ignored</td>
-</tr>
-<tr>
-<td class="skipped">loginSuccessModelFormFile[1](User(email=sonya@gmail.com, password=Ss12345$))</td>
-<td class="skipped">-</td>
-<td class="skipped">ignored</td>
-</tr>
-<tr>
-<td class="skipped">loginSuccessModelFormFile[2](User(email=noa@gmail.com, password=Nnoa12345$))</td>
-<td class="skipped">-</td>
-<td class="skipped">ignored</td>
-</tr>
-<tr>
-<td class="skipped">loginSuccess[0](kate@gmail.com, Kkate12345$)</td>
-<td class="skipped">-</td>
-<td class="skipped">ignored</td>
-</tr>
-<tr>
-<td class="skipped">loginSuccess[1](kate@gmail.com, Kkate12345$)</td>
-<td class="skipped">-</td>
-<td class="skipped">ignored</td>
-</tr>
-<tr>
-<td class="skipped">loginSuccess[2](kate@gmail.com, Kkate12345$)</td>
-<td class="skipped">-</td>
-<td class="skipped">ignored</td>
-</tr>
-<tr>
-<td class="skipped">loginUnregisteredUser</td>
-<td class="skipped">-</td>
-<td class="skipped">ignored</td>
-</tr>
-<tr>
-<td class="skipped">loginWrongEmail</td>
-<td class="skipped">-</td>
-<td class="skipped">ignored</td>
-</tr>
-<tr>
-<td class="skipped">loginWrongPassword</td>
-<td class="skipped">-</td>
-<td class="skipped">ignored</td>
-</tr>
-<tr>
 <td class="failures">preCondition</td>
 <td class="failures">0s</td>
 <td class="failures">failed</td>
+</tr>
+<tr>
+<td class="skipped">registrationSuccess</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="skipped">registrationUserAlreadyExists</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="skipped">registrationWrongEmail</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="skipped">registrationWrongPassword</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
 </tr>
 </table>
 </div>
 <div id="tab2" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>20:49:41.570  INFO  tests.TestBase - The name of method is --&gt;loginSuccess
-20:49:41.571  INFO  manager.ListenerTNG - onTestStart name --&gt; loginSuccess
-20:49:41.572  INFO  manager.ListenerTNG - onTestSkipped name --&gt; loginSuccess
-20:49:41.572  INFO  manager.ListenerTNG - onTestStart name --&gt; loginSuccess
-20:49:41.572  INFO  manager.ListenerTNG - onTestSkipped name --&gt; loginSuccess
-20:49:41.572  INFO  manager.ListenerTNG - onTestStart name --&gt; loginSuccess
-20:49:41.572  INFO  manager.ListenerTNG - onTestSkipped name --&gt; loginSuccess
-20:49:41.573  INFO  manager.ListenerTNG - onTestStart name --&gt; loginSuccess2
-20:49:41.573  INFO  manager.ListenerTNG - onTestSkipped name --&gt; loginSuccess2
-20:49:41.573  INFO  manager.ListenerTNG - onTestStart name --&gt; loginSuccess2
-20:49:41.573  INFO  manager.ListenerTNG - onTestSkipped name --&gt; loginSuccess2
-20:49:41.573  INFO  manager.ListenerTNG - onTestStart name --&gt; loginSuccess2
-20:49:41.574  INFO  manager.ListenerTNG - onTestSkipped name --&gt; loginSuccess2
-20:49:41.574  INFO  manager.ListenerTNG - onTestStart name --&gt; loginSuccess2
-20:49:41.577  INFO  manager.ListenerTNG - onTestSkipped name --&gt; loginSuccess2
-20:49:41.578  INFO  manager.ListenerTNG - onTestStart name --&gt; loginSuccessModelFormFile
-20:49:41.578  INFO  manager.ListenerTNG - onTestSkipped name --&gt; loginSuccessModelFormFile
-20:49:41.579  INFO  manager.ListenerTNG - onTestStart name --&gt; loginSuccessModelFormFile
-20:49:41.579  INFO  manager.ListenerTNG - onTestSkipped name --&gt; loginSuccessModelFormFile
-20:49:41.579  INFO  manager.ListenerTNG - onTestStart name --&gt; loginSuccessModelFormFile
-20:49:41.579  INFO  manager.ListenerTNG - onTestSkipped name --&gt; loginSuccessModelFormFile
-20:49:41.579  INFO  manager.ListenerTNG - onTestStart name --&gt; loginUnregisteredUser
-20:49:41.579  INFO  manager.ListenerTNG - onTestSkipped name --&gt; loginUnregisteredUser
-20:49:41.579  INFO  manager.ListenerTNG - onTestStart name --&gt; loginWrongEmail
-20:49:41.580  INFO  manager.ListenerTNG - onTestSkipped name --&gt; loginWrongEmail
-20:49:41.580  INFO  manager.ListenerTNG - onTestStart name --&gt; loginWrongPassword
-20:49:41.580  INFO  manager.ListenerTNG - onTestSkipped name --&gt; loginWrongPassword
+<pre>20:49:41.580  INFO  tests.TestBase - The name of method is --&gt;registrationSuccess
+20:49:41.581  INFO  manager.ListenerTNG - onTestStart name --&gt; registrationSuccess
+20:49:41.581  INFO  manager.ListenerTNG - onTestSkipped name --&gt; registrationSuccess
+20:49:41.581  INFO  manager.ListenerTNG - onTestStart name --&gt; registrationUserAlreadyExists
+20:49:41.581  INFO  manager.ListenerTNG - onTestSkipped name --&gt; registrationUserAlreadyExists
+20:49:41.581  INFO  manager.ListenerTNG - onTestStart name --&gt; registrationWrongEmail
+20:49:41.582  INFO  manager.ListenerTNG - onTestSkipped name --&gt; registrationWrongEmail
+20:49:41.582  INFO  manager.ListenerTNG - onTestStart name --&gt; registrationWrongPassword
+20:49:41.582  INFO  manager.ListenerTNG - onTestSkipped name --&gt; registrationWrongPassword
 </pre>
 </span>
 </div>

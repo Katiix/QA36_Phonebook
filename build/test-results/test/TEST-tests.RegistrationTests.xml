@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.LoginTests" tests="14" skipped="13" failures="1" errors="0" timestamp="2023-01-31T18:49:41" hostname="WIN-UK2CA3OCGGH" time="0.01">
+<testsuite name="tests.RegistrationTests" tests="5" skipped="4" failures="1" errors="0" timestamp="2023-01-31T18:49:41" hostname="WIN-UK2CA3OCGGH" time="0.002">
   <properties/>
-  <testcase name="preCondition" classname="tests.LoginTests" time="0.0">
+  <testcase name="preCondition" classname="tests.RegistrationTests" time="0.0">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at tests.LoginTests.preCondition(LoginTests.java:23)
+	at tests.RegistrationTests.preCondition(RegistrationTests.java:12)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -56,72 +56,27 @@
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="loginSuccess[0](kate@gmail.com, Kkate12345$)" classname="tests.LoginTests" time="0.0">
+  <testcase name="registrationSuccess" classname="tests.RegistrationTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="loginSuccess[1](kate@gmail.com, Kkate12345$)" classname="tests.LoginTests" time="0.0">
+  <testcase name="registrationUserAlreadyExists" classname="tests.RegistrationTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="loginSuccess[2](kate@gmail.com, Kkate12345$)" classname="tests.LoginTests" time="0.0">
+  <testcase name="registrationWrongEmail" classname="tests.RegistrationTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="loginSuccess2[0](kate@gmail.com, Kkate12345$)" classname="tests.LoginTests" time="0.0">
+  <testcase name="registrationWrongPassword" classname="tests.RegistrationTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="loginSuccess2[1](kate@gmail.com, Kkate12345$)" classname="tests.LoginTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="loginSuccess2[2](kate@gmail.com, Kkate12345$)" classname="tests.LoginTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="loginSuccess2[0](User(email=kate@gmail.com, password=Kkate12345$))" classname="tests.LoginTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="loginSuccessModelFormFile[0](User(email=kate@gmail.com, password=Kkate12345$))" classname="tests.LoginTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="loginSuccessModelFormFile[1](User(email=sonya@gmail.com, password=Ss12345$))" classname="tests.LoginTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="loginSuccessModelFormFile[2](User(email=noa@gmail.com, password=Nnoa12345$))" classname="tests.LoginTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="loginUnregisteredUser" classname="tests.LoginTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="loginWrongEmail" classname="tests.LoginTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="loginWrongPassword" classname="tests.LoginTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <system-out><![CDATA[20:49:41.570  INFO  tests.TestBase - The name of method is -->loginSuccess
-20:49:41.571  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess
-20:49:41.572  INFO  manager.ListenerTNG - onTestSkipped name --> loginSuccess
-20:49:41.572  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess
-20:49:41.572  INFO  manager.ListenerTNG - onTestSkipped name --> loginSuccess
-20:49:41.572  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess
-20:49:41.572  INFO  manager.ListenerTNG - onTestSkipped name --> loginSuccess
-20:49:41.573  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess2
-20:49:41.573  INFO  manager.ListenerTNG - onTestSkipped name --> loginSuccess2
-20:49:41.573  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess2
-20:49:41.573  INFO  manager.ListenerTNG - onTestSkipped name --> loginSuccess2
-20:49:41.573  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess2
-20:49:41.574  INFO  manager.ListenerTNG - onTestSkipped name --> loginSuccess2
-20:49:41.574  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess2
-20:49:41.577  INFO  manager.ListenerTNG - onTestSkipped name --> loginSuccess2
-20:49:41.578  INFO  manager.ListenerTNG - onTestStart name --> loginSuccessModelFormFile
-20:49:41.578  INFO  manager.ListenerTNG - onTestSkipped name --> loginSuccessModelFormFile
-20:49:41.579  INFO  manager.ListenerTNG - onTestStart name --> loginSuccessModelFormFile
-20:49:41.579  INFO  manager.ListenerTNG - onTestSkipped name --> loginSuccessModelFormFile
-20:49:41.579  INFO  manager.ListenerTNG - onTestStart name --> loginSuccessModelFormFile
-20:49:41.579  INFO  manager.ListenerTNG - onTestSkipped name --> loginSuccessModelFormFile
-20:49:41.579  INFO  manager.ListenerTNG - onTestStart name --> loginUnregisteredUser
-20:49:41.579  INFO  manager.ListenerTNG - onTestSkipped name --> loginUnregisteredUser
-20:49:41.579  INFO  manager.ListenerTNG - onTestStart name --> loginWrongEmail
-20:49:41.580  INFO  manager.ListenerTNG - onTestSkipped name --> loginWrongEmail
-20:49:41.580  INFO  manager.ListenerTNG - onTestStart name --> loginWrongPassword
-20:49:41.580  INFO  manager.ListenerTNG - onTestSkipped name --> loginWrongPassword
+  <system-out><![CDATA[20:49:41.580  INFO  tests.TestBase - The name of method is -->registrationSuccess
+20:49:41.581  INFO  manager.ListenerTNG - onTestStart name --> registrationSuccess
+20:49:41.581  INFO  manager.ListenerTNG - onTestSkipped name --> registrationSuccess
+20:49:41.581  INFO  manager.ListenerTNG - onTestStart name --> registrationUserAlreadyExists
+20:49:41.581  INFO  manager.ListenerTNG - onTestSkipped name --> registrationUserAlreadyExists
+20:49:41.581  INFO  manager.ListenerTNG - onTestStart name --> registrationWrongEmail
+20:49:41.582  INFO  manager.ListenerTNG - onTestSkipped name --> registrationWrongEmail
+20:49:41.582  INFO  manager.ListenerTNG - onTestStart name --> registrationWrongPassword
+20:49:41.582  INFO  manager.ListenerTNG - onTestSkipped name --> registrationWrongPassword
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

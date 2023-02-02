@@ -1,0 +1,67 @@
+20:00:37.907  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+20:00:44.809  INFO  manager.ApplicationManager - Current url -->https://telranedu.web.app/home
+20:00:44.811  INFO  manager.ListenerTNG - onStart name --> Gradle test
+20:00:44.826  INFO  tests.TestBase - The name of method is -->loginSuccessModelFormFile
+20:00:44.828  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+20:00:49.842  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+20:00:49.844  INFO  manager.ListenerWD - List size is --> 0
+20:00:49.844  INFO  manager.ListenerTNG - onTestStart name --> loginSuccessModelFormFile
+20:00:49.849  INFO  tests.TestBase - Login with valid data: User(email=kate@gmail.com, password=Kkate12345$)
+20:00:49.849  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+20:00:49.866  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+20:00:49.903  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+20:00:49.919  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+20:00:49.984  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+20:00:49.999  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+20:00:50.061  INFO  manager.ListenerWD - Before find element --> By.cssSelector: button[name='login']
+20:00:50.076  INFO  manager.ListenerWD - After find element --> By.cssSelector: button[name='login']
+20:00:50.098  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+20:00:51.215  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+20:00:51.215  INFO  manager.ListenerWD - List size is --> 1
+20:00:51.217  INFO  tests.TestBase - Test passed with success
+20:00:51.218  INFO  manager.ListenerTNG - onTestSuccess name --> loginSuccessModelFormFile
+20:00:51.219  INFO  tests.TestBase - The name of method is -->loginSuccessModelFormFile
+20:00:51.219  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+20:00:51.231  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+20:00:51.232  INFO  manager.ListenerWD - List size is --> 1
+20:00:51.232  INFO  manager.ListenerWD - Before find element --> By.xpath: //button[text()='Sign Out']
+20:00:51.245  INFO  manager.ListenerWD - After find element --> By.xpath: //button[text()='Sign Out']
+20:00:51.267  INFO  tests.TestBase - Need logout
+20:00:51.267  INFO  manager.ListenerTNG - onTestStart name --> loginSuccessModelFormFile
+20:00:51.268  INFO  tests.TestBase - Login with valid data: User(email=sonya@gmail.com, password=Ss12345$)
+20:00:51.268  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+20:00:51.277  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+20:00:51.299  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+20:00:51.309  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+20:00:51.379  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+20:00:51.389  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+20:00:51.454  INFO  manager.ListenerWD - Before find element --> By.cssSelector: button[name='login']
+20:00:51.464  INFO  manager.ListenerWD - After find element --> By.cssSelector: button[name='login']
+20:00:51.484  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+20:00:51.758  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+20:00:51.758  INFO  manager.ListenerWD - List size is --> 1
+20:00:51.758  INFO  tests.TestBase - Test passed with success
+20:00:51.758  INFO  manager.ListenerTNG - onTestSuccess name --> loginSuccessModelFormFile
+20:00:51.759  INFO  tests.TestBase - The name of method is -->loginSuccessModelFormFile
+20:00:51.759  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+20:00:51.768  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+20:00:51.769  INFO  manager.ListenerWD - List size is --> 1
+20:00:51.769  INFO  manager.ListenerWD - Before find element --> By.xpath: //button[text()='Sign Out']
+20:00:51.777  INFO  manager.ListenerWD - After find element --> By.xpath: //button[text()='Sign Out']
+20:00:51.799  INFO  tests.TestBase - Need logout
+20:00:51.800  INFO  manager.ListenerTNG - onTestStart name --> loginSuccessModelFormFile
+20:00:51.800  INFO  tests.TestBase - Login with valid data: User(email=noa@gmail.com, password=Nnoa12345$)
+20:00:51.800  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+20:00:51.810  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+20:00:51.830  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+20:00:51.839  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+20:00:51.905  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+20:00:51.915  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+20:00:51.981  INFO  manager.ListenerWD - Before find element --> By.cssSelector: button[name='login']
+20:00:51.990  INFO  manager.ListenerWD - After find element --> By.cssSelector: button[name='login']
+20:00:52.010  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+20:00:52.282  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+20:00:52.283  INFO  manager.ListenerWD - List size is --> 1
+20:00:52.283  INFO  tests.TestBase - Test passed with success
+20:00:52.283  INFO  manager.ListenerTNG - onTestSuccess name --> loginSuccessModelFormFile
+20:00:52.285  INFO  manager.ListenerTNG - onFinish name --> Gradle test
