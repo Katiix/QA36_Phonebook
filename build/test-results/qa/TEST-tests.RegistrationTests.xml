@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.RegistrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-03T10:17:35" hostname="WIN-UK2CA3OCGGH" time="1.159">
+  <properties/>
+  <testcase name="registrationSuccess" classname="tests.RegistrationTests" time="1.159"/>
+  <system-out><![CDATA[12:17:35.291  INFO  tests.TestBase - The name of method is -->registrationSuccess
+12:17:35.292  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:17:35.297  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+12:17:35.297  INFO  manager.ListenerWD - List size is --> 1
+12:17:35.297  INFO  manager.ListenerWD - Before find element --> By.xpath: //button[text()='Sign Out']
+12:17:35.302  INFO  manager.ListenerWD - After find element --> By.xpath: //button[text()='Sign Out']
+12:17:35.512  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+12:17:35.517  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+12:17:35.724  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+12:17:35.729  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+12:17:35.949  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+12:17:35.954  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+12:17:36.171  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+12:17:36.176  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+12:17:36.382  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:17:36.671  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+12:17:36.671  INFO  manager.ListenerWD - List size is --> 1
+]]></system-out>
+  <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
+]]></system-err>
+</testsuite>

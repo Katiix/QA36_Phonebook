@@ -1,0 +1,35 @@
+11:35:30.895  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+11:35:31.833  INFO  manager.ApplicationManager - Current url -->https://telranedu.web.app/home
+11:35:31.849  INFO  tests.TestBase - The name of method is -->registrationSuccess
+11:35:31.850  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:35:36.861  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+11:35:36.863  INFO  manager.ListenerWD - List size is --> 0
+11:35:36.865  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+11:35:36.881  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+11:35:36.918  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+11:35:36.934  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+11:35:37.001  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+11:35:37.025  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+11:35:37.088  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+11:35:37.102  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+11:35:37.126  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:35:38.079  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+11:35:38.079  INFO  manager.ListenerWD - List size is --> 0
+11:35:38.083  INFO  tests.TestBase - The name of method is -->registrationUserAlreadyExists
+11:35:38.083  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:35:38.113  INFO  manager.ListenerWD - Test ends with error
+11:35:38.113  INFO  manager.ListenerWD - ===================================
+11:35:38.114  INFO  manager.ListenerWD - Method name--> findElements
+11:35:38.114  INFO  manager.ListenerWD - ===================================
+11:35:38.115  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=109.0.5414.120): User already exist
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4822045b7cb58f100c8351e40cff6f29, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63246}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63246/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4822045b7cb58f100c8351e40cff6f29
+11:35:38.115  INFO  manager.ListenerWD - ===================================
+11:35:38.115  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (4822045b7cb58f100c8351e40cff6f29)
+11:35:38.115  INFO  manager.ListenerWD - ===================================
+11:35:38.116  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-336.png

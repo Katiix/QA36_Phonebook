@@ -1,0 +1,648 @@
+12:04:53.154  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+12:04:54.236  INFO  manager.ApplicationManager - Current url -->https://telranedu.web.app/home
+12:04:54.239  INFO  manager.ListenerTNG - onStart name --> Gradle test
+12:04:54.254  INFO  tests.TestBase - The name of method is -->addNewContactAddressBlank
+12:04:54.256  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:04:59.272  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+12:04:59.274  INFO  manager.ListenerWD - List size is --> 0
+12:04:59.275  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+12:04:59.294  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+12:04:59.330  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+12:04:59.348  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+12:04:59.423  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+12:04:59.438  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+12:04:59.501  INFO  manager.ListenerWD - Before find element --> By.cssSelector: button[name='login']
+12:04:59.515  INFO  manager.ListenerWD - After find element --> By.cssSelector: button[name='login']
+12:04:59.539  INFO  manager.ListenerTNG - onTestStart name --> addNewContactAddressBlank
+12:04:59.542  INFO  tests.TestBase - Test started with address:  
+12:04:59.543  INFO  manager.ListenerWD - Before find element --> By.xpath: //a[@href='/add']
+12:05:00.715  INFO  manager.ListenerWD - After find element --> By.xpath: //a[@href='/add']
+12:05:02.740  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Name']
+12:05:02.754  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Name']
+12:05:02.813  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Last Name']
+12:05:02.827  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Last Name']
+12:05:02.886  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Phone']
+12:05:02.899  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Phone']
+12:05:02.958  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='email']
+12:05:02.970  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='email']
+12:05:03.031  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Address']
+12:05:03.044  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Address']
+12:05:03.100  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='description']
+12:05:03.112  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='description']
+12:05:05.174  INFO  manager.ListenerWD - Before find element --> By.xpath: //b[text()='Save']
+12:05:05.187  INFO  manager.ListenerWD - After find element --> By.xpath: //b[text()='Save']
+12:05:05.208  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: a[href='/add'][class='active']
+12:05:05.221  INFO  manager.ListenerWD - After find elements --> By.cssSelector: a[href='/add'][class='active']
+12:05:05.221  INFO  manager.ListenerWD - List size is --> 1
+12:05:05.223  INFO  tests.TestBase - Test passed with success
+12:05:05.224  INFO  manager.ListenerTNG - onTestSuccess name --> addNewContactAddressBlank
+12:05:05.225  INFO  tests.TestBase - The name of method is -->addNewContactAddressNull
+12:05:05.225  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:05.234  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+12:05:05.234  INFO  manager.ListenerWD - List size is --> 1
+12:05:05.235  INFO  manager.ListenerTNG - onTestStart name --> addNewContactAddressNull
+12:05:05.235  INFO  tests.TestBase - Test started with address: 
+12:05:05.235  INFO  manager.ListenerWD - Before find element --> By.xpath: //a[@href='/add']
+12:05:05.244  INFO  manager.ListenerWD - After find element --> By.xpath: //a[@href='/add']
+12:05:07.266  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Name']
+12:05:07.273  INFO  manager.ListenerWD - Test ends with error
+12:05:07.273  INFO  manager.ListenerWD - ===================================
+12:05:07.273  INFO  manager.ListenerWD - Method name--> findElement
+12:05:07.273  INFO  manager.ListenerWD - ===================================
+12:05:07.274  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElement {using=css selector, value=input[placeholder='Name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.274  INFO  manager.ListenerWD - ===================================
+12:05:07.274  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.274  INFO  manager.ListenerWD - ===================================
+12:05:07.274  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-486.png
+12:05:07.281  INFO  manager.ListenerTNG - onTestFailure name --> addNewContactAddressNull
+12:05:07.281  INFO  tests.TestBase - The name of method is -->addNewContactBlankEmail
+12:05:07.281  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.284  INFO  manager.ListenerWD - Test ends with error
+12:05:07.284  INFO  manager.ListenerWD - ===================================
+12:05:07.284  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.284  INFO  manager.ListenerWD - ===================================
+12:05:07.284  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.284  INFO  manager.ListenerWD - ===================================
+12:05:07.284  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.284  INFO  manager.ListenerWD - ===================================
+12:05:07.284  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-436.png
+12:05:07.290  INFO  manager.ListenerTNG - onTestStart name --> addNewContactBlankEmail
+12:05:07.290  INFO  manager.ListenerTNG - onTestSkipped name --> addNewContactBlankEmail
+12:05:07.291  INFO  tests.TestBase - The name of method is -->addNewContactBlankLastName
+12:05:07.291  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.293  INFO  manager.ListenerWD - Test ends with error
+12:05:07.293  INFO  manager.ListenerWD - ===================================
+12:05:07.293  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.293  INFO  manager.ListenerWD - ===================================
+12:05:07.293  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.293  INFO  manager.ListenerWD - ===================================
+12:05:07.294  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.294  INFO  manager.ListenerWD - ===================================
+12:05:07.294  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-480.png
+12:05:07.299  INFO  manager.ListenerTNG - onTestStart name --> addNewContactBlankLastName
+12:05:07.299  INFO  manager.ListenerTNG - onTestSkipped name --> addNewContactBlankLastName
+12:05:07.300  INFO  tests.TestBase - The name of method is -->addNewContactBlankName
+12:05:07.300  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.302  INFO  manager.ListenerWD - Test ends with error
+12:05:07.302  INFO  manager.ListenerWD - ===================================
+12:05:07.302  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.302  INFO  manager.ListenerWD - ===================================
+12:05:07.302  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.302  INFO  manager.ListenerWD - ===================================
+12:05:07.303  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.303  INFO  manager.ListenerWD - ===================================
+12:05:07.303  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-764.png
+12:05:07.306  INFO  manager.ListenerTNG - onTestStart name --> addNewContactBlankName
+12:05:07.307  INFO  manager.ListenerTNG - onTestSkipped name --> addNewContactBlankName
+12:05:07.307  INFO  tests.TestBase - The name of method is -->addNewContactExistingEmail
+12:05:07.307  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.310  INFO  manager.ListenerWD - Test ends with error
+12:05:07.310  INFO  manager.ListenerWD - ===================================
+12:05:07.310  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.310  INFO  manager.ListenerWD - ===================================
+12:05:07.310  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.310  INFO  manager.ListenerWD - ===================================
+12:05:07.310  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.310  INFO  manager.ListenerWD - ===================================
+12:05:07.310  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-734.png
+12:05:07.314  INFO  manager.ListenerTNG - onTestStart name --> addNewContactExistingEmail
+12:05:07.314  INFO  manager.ListenerTNG - onTestSkipped name --> addNewContactExistingEmail
+12:05:07.314  INFO  tests.TestBase - The name of method is -->addNewContactMinimumCharAfterAtEmail
+12:05:07.315  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.317  INFO  manager.ListenerWD - Test ends with error
+12:05:07.317  INFO  manager.ListenerWD - ===================================
+12:05:07.317  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.317  INFO  manager.ListenerWD - ===================================
+12:05:07.317  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.317  INFO  manager.ListenerWD - ===================================
+12:05:07.317  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.317  INFO  manager.ListenerWD - ===================================
+12:05:07.317  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-970.png
+12:05:07.321  INFO  manager.ListenerTNG - onTestStart name --> addNewContactMinimumCharAfterAtEmail
+12:05:07.321  INFO  manager.ListenerTNG - onTestSkipped name --> addNewContactMinimumCharAfterAtEmail
+12:05:07.322  INFO  tests.TestBase - The name of method is -->addNewContactMinimumCharBeforeAtEmail
+12:05:07.322  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.324  INFO  manager.ListenerWD - Test ends with error
+12:05:07.325  INFO  manager.ListenerWD - ===================================
+12:05:07.325  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.325  INFO  manager.ListenerWD - ===================================
+12:05:07.325  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.325  INFO  manager.ListenerWD - ===================================
+12:05:07.325  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.325  INFO  manager.ListenerWD - ===================================
+12:05:07.325  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-737.png
+12:05:07.329  INFO  manager.ListenerTNG - onTestStart name --> addNewContactMinimumCharBeforeAtEmail
+12:05:07.329  INFO  manager.ListenerTNG - onTestSkipped name --> addNewContactMinimumCharBeforeAtEmail
+12:05:07.330  INFO  tests.TestBase - The name of method is -->addNewContactNonEnglishEmail
+12:05:07.330  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.332  INFO  manager.ListenerWD - Test ends with error
+12:05:07.332  INFO  manager.ListenerWD - ===================================
+12:05:07.332  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.332  INFO  manager.ListenerWD - ===================================
+12:05:07.332  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.332  INFO  manager.ListenerWD - ===================================
+12:05:07.332  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.333  INFO  manager.ListenerWD - ===================================
+12:05:07.333  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-258.png
+12:05:07.338  INFO  manager.ListenerTNG - onTestStart name --> addNewContactNonEnglishEmail
+12:05:07.338  INFO  manager.ListenerTNG - onTestSkipped name --> addNewContactNonEnglishEmail
+12:05:07.338  INFO  tests.TestBase - The name of method is -->addNewContactNullEmail
+12:05:07.339  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.341  INFO  manager.ListenerWD - Test ends with error
+12:05:07.341  INFO  manager.ListenerWD - ===================================
+12:05:07.341  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.341  INFO  manager.ListenerWD - ===================================
+12:05:07.341  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.341  INFO  manager.ListenerWD - ===================================
+12:05:07.341  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.341  INFO  manager.ListenerWD - ===================================
+12:05:07.341  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-781.png
+12:05:07.344  INFO  manager.ListenerTNG - onTestStart name --> addNewContactNullEmail
+12:05:07.344  INFO  manager.ListenerTNG - onTestSkipped name --> addNewContactNullEmail
+12:05:07.345  INFO  tests.TestBase - The name of method is -->addNewContactNullLastName
+12:05:07.345  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.347  INFO  manager.ListenerWD - Test ends with error
+12:05:07.347  INFO  manager.ListenerWD - ===================================
+12:05:07.347  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.347  INFO  manager.ListenerWD - ===================================
+12:05:07.348  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.348  INFO  manager.ListenerWD - ===================================
+12:05:07.348  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.348  INFO  manager.ListenerWD - ===================================
+12:05:07.348  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-59.png
+12:05:07.350  INFO  manager.ListenerTNG - onTestStart name --> addNewContactNullLastName
+12:05:07.350  INFO  manager.ListenerTNG - onTestSkipped name --> addNewContactNullLastName
+12:05:07.351  INFO  tests.TestBase - The name of method is -->addNewContactNullName
+12:05:07.351  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.353  INFO  manager.ListenerWD - Test ends with error
+12:05:07.353  INFO  manager.ListenerWD - ===================================
+12:05:07.353  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.353  INFO  manager.ListenerWD - ===================================
+12:05:07.353  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.353  INFO  manager.ListenerWD - ===================================
+12:05:07.353  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.353  INFO  manager.ListenerWD - ===================================
+12:05:07.353  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-777.png
+12:05:07.356  INFO  manager.ListenerTNG - onTestStart name --> addNewContactNullName
+12:05:07.356  INFO  manager.ListenerTNG - onTestSkipped name --> addNewContactNullName
+12:05:07.356  INFO  tests.TestBase - The name of method is -->addNewContactPhoneAlreadyExisting
+12:05:07.357  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.359  INFO  manager.ListenerWD - Test ends with error
+12:05:07.359  INFO  manager.ListenerWD - ===================================
+12:05:07.359  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.359  INFO  manager.ListenerWD - ===================================
+12:05:07.359  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.359  INFO  manager.ListenerWD - ===================================
+12:05:07.359  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.359  INFO  manager.ListenerWD - ===================================
+12:05:07.359  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-249.png
+12:05:07.363  INFO  manager.ListenerTNG - onTestStart name --> addNewContactPhoneAlreadyExisting
+12:05:07.363  INFO  manager.ListenerTNG - onTestSkipped name --> addNewContactPhoneAlreadyExisting
+12:05:07.363  INFO  tests.TestBase - The name of method is -->addNewContactPhoneBlank
+12:05:07.363  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.366  INFO  manager.ListenerWD - Test ends with error
+12:05:07.366  INFO  manager.ListenerWD - ===================================
+12:05:07.366  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.366  INFO  manager.ListenerWD - ===================================
+12:05:07.366  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.366  INFO  manager.ListenerWD - ===================================
+12:05:07.366  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.366  INFO  manager.ListenerWD - ===================================
+12:05:07.366  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-82.png
+12:05:07.369  INFO  manager.ListenerTNG - onTestStart name --> addNewContactPhoneBlank
+12:05:07.369  INFO  manager.ListenerTNG - onTestSkipped name --> addNewContactPhoneBlank
+12:05:07.370  INFO  tests.TestBase - The name of method is -->addNewContactPhoneMaximumNumbers
+12:05:07.370  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.373  INFO  manager.ListenerWD - Test ends with error
+12:05:07.373  INFO  manager.ListenerWD - ===================================
+12:05:07.373  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.373  INFO  manager.ListenerWD - ===================================
+12:05:07.373  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.373  INFO  manager.ListenerWD - ===================================
+12:05:07.373  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.373  INFO  manager.ListenerWD - ===================================
+12:05:07.373  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-665.png
+12:05:07.375  INFO  manager.ListenerTNG - onTestStart name --> addNewContactPhoneMaximumNumbers
+12:05:07.376  INFO  manager.ListenerTNG - onTestSkipped name --> addNewContactPhoneMaximumNumbers
+12:05:07.376  INFO  tests.TestBase - The name of method is -->addNewContactPhoneMinimumNumbers
+12:05:07.377  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.379  INFO  manager.ListenerWD - Test ends with error
+12:05:07.379  INFO  manager.ListenerWD - ===================================
+12:05:07.379  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.379  INFO  manager.ListenerWD - ===================================
+12:05:07.379  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.379  INFO  manager.ListenerWD - ===================================
+12:05:07.379  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.379  INFO  manager.ListenerWD - ===================================
+12:05:07.379  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-281.png
+12:05:07.382  INFO  manager.ListenerTNG - onTestStart name --> addNewContactPhoneMinimumNumbers
+12:05:07.382  INFO  manager.ListenerTNG - onTestSkipped name --> addNewContactPhoneMinimumNumbers
+12:05:07.383  INFO  tests.TestBase - The name of method is -->addNewContactPhoneNotNumbers
+12:05:07.383  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.385  INFO  manager.ListenerWD - Test ends with error
+12:05:07.386  INFO  manager.ListenerWD - ===================================
+12:05:07.386  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.386  INFO  manager.ListenerWD - ===================================
+12:05:07.386  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.386  INFO  manager.ListenerWD - ===================================
+12:05:07.386  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.386  INFO  manager.ListenerWD - ===================================
+12:05:07.386  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-879.png
+12:05:07.390  INFO  manager.ListenerTNG - onTestStart name --> addNewContactPhoneNotNumbers
+12:05:07.390  INFO  manager.ListenerTNG - onTestSkipped name --> addNewContactPhoneNotNumbers
+12:05:07.390  INFO  tests.TestBase - The name of method is -->addNewContactPhoneNull
+12:05:07.391  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.393  INFO  manager.ListenerWD - Test ends with error
+12:05:07.393  INFO  manager.ListenerWD - ===================================
+12:05:07.394  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.394  INFO  manager.ListenerWD - ===================================
+12:05:07.394  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.394  INFO  manager.ListenerWD - ===================================
+12:05:07.394  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.394  INFO  manager.ListenerWD - ===================================
+12:05:07.394  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-541.png
+12:05:07.397  INFO  manager.ListenerTNG - onTestStart name --> addNewContactPhoneNull
+12:05:07.398  INFO  manager.ListenerTNG - onTestSkipped name --> addNewContactPhoneNull
+12:05:07.398  INFO  tests.TestBase - The name of method is -->addNewContactPhoneSpecialChars
+12:05:07.398  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.401  INFO  manager.ListenerWD - Test ends with error
+12:05:07.401  INFO  manager.ListenerWD - ===================================
+12:05:07.401  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.401  INFO  manager.ListenerWD - ===================================
+12:05:07.401  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.401  INFO  manager.ListenerWD - ===================================
+12:05:07.401  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.401  INFO  manager.ListenerWD - ===================================
+12:05:07.401  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-325.png
+12:05:07.404  INFO  manager.ListenerTNG - onTestStart name --> addNewContactPhoneSpecialChars
+12:05:07.404  INFO  manager.ListenerTNG - onTestSkipped name --> addNewContactPhoneSpecialChars
+12:05:07.404  INFO  tests.TestBase - The name of method is -->addNewContactSuccess
+12:05:07.405  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.407  INFO  manager.ListenerWD - Test ends with error
+12:05:07.407  INFO  manager.ListenerWD - ===================================
+12:05:07.407  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.407  INFO  manager.ListenerWD - ===================================
+12:05:07.407  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.407  INFO  manager.ListenerWD - ===================================
+12:05:07.407  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.407  INFO  manager.ListenerWD - ===================================
+12:05:07.407  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-494.png
+12:05:07.410  INFO  manager.ListenerTNG - onTestStart name --> addNewContactSuccess
+12:05:07.410  INFO  manager.ListenerTNG - onTestSkipped name --> addNewContactSuccess
+12:05:07.411  INFO  tests.TestBase - The name of method is -->addNewContactSuccessRequiredFields
+12:05:07.412  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.414  INFO  manager.ListenerWD - Test ends with error
+12:05:07.414  INFO  manager.ListenerWD - ===================================
+12:05:07.414  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.414  INFO  manager.ListenerWD - ===================================
+12:05:07.414  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.414  INFO  manager.ListenerWD - ===================================
+12:05:07.414  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.414  INFO  manager.ListenerWD - ===================================
+12:05:07.414  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-236.png
+12:05:07.418  INFO  manager.ListenerTNG - onTestStart name --> addNewContactSuccessRequiredFields
+12:05:07.418  INFO  manager.ListenerTNG - onTestSkipped name --> addNewContactSuccessRequiredFields
+12:05:07.418  INFO  tests.TestBase - The name of method is -->addNewContactTwoAtEmail
+12:05:07.419  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.421  INFO  manager.ListenerWD - Test ends with error
+12:05:07.421  INFO  manager.ListenerWD - ===================================
+12:05:07.421  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.421  INFO  manager.ListenerWD - ===================================
+12:05:07.421  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.421  INFO  manager.ListenerWD - ===================================
+12:05:07.421  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.421  INFO  manager.ListenerWD - ===================================
+12:05:07.421  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-447.png
+12:05:07.424  INFO  manager.ListenerTNG - onTestStart name --> addNewContactTwoAtEmail
+12:05:07.424  INFO  manager.ListenerTNG - onTestSkipped name --> addNewContactTwoAtEmail
+12:05:07.424  INFO  tests.TestBase - The name of method is -->addNewContactWrongEmail
+12:05:07.424  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.427  INFO  manager.ListenerWD - Test ends with error
+12:05:07.427  INFO  manager.ListenerWD - ===================================
+12:05:07.427  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.427  INFO  manager.ListenerWD - ===================================
+12:05:07.427  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.427  INFO  manager.ListenerWD - ===================================
+12:05:07.427  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.427  INFO  manager.ListenerWD - ===================================
+12:05:07.427  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-619.png
+12:05:07.430  INFO  manager.ListenerTNG - onTestStart name --> addNewContactWrongEmail
+12:05:07.431  INFO  manager.ListenerTNG - onTestSkipped name --> addNewContactWrongEmail
+12:05:07.433  INFO  tests.TestBase - The name of method is -->loginSuccess
+12:05:07.433  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.436  INFO  manager.ListenerWD - Test ends with error
+12:05:07.436  INFO  manager.ListenerWD - ===================================
+12:05:07.436  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.436  INFO  manager.ListenerWD - ===================================
+12:05:07.436  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.436  INFO  manager.ListenerWD - ===================================
+12:05:07.436  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.436  INFO  manager.ListenerWD - ===================================
+12:05:07.436  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-690.png
+12:05:07.439  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess
+12:05:07.439  INFO  manager.ListenerTNG - onTestSkipped name --> loginSuccess
+12:05:07.440  INFO  tests.TestBase - The name of method is -->loginSuccess
+12:05:07.440  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess
+12:05:07.440  INFO  manager.ListenerTNG - onTestSkipped name --> loginSuccess
+12:05:07.441  INFO  tests.TestBase - The name of method is -->loginSuccess
+12:05:07.441  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess
+12:05:07.441  INFO  manager.ListenerTNG - onTestSkipped name --> loginSuccess
+12:05:07.442  INFO  tests.TestBase - The name of method is -->loginSuccess2
+12:05:07.442  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess2
+12:05:07.442  INFO  manager.ListenerTNG - onTestSkipped name --> loginSuccess2
+12:05:07.443  INFO  tests.TestBase - The name of method is -->loginSuccess2
+12:05:07.443  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess2
+12:05:07.443  INFO  manager.ListenerTNG - onTestSkipped name --> loginSuccess2
+12:05:07.444  INFO  tests.TestBase - The name of method is -->loginSuccess2
+12:05:07.444  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess2
+12:05:07.444  INFO  manager.ListenerTNG - onTestSkipped name --> loginSuccess2
+12:05:07.444  INFO  tests.TestBase - The name of method is -->loginSuccess2
+12:05:07.445  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess2
+12:05:07.449  INFO  manager.ListenerTNG - onTestSkipped name --> loginSuccess2
+12:05:07.450  INFO  tests.TestBase - The name of method is -->loginSuccessModelFormFile
+12:05:07.450  INFO  manager.ListenerTNG - onTestStart name --> loginSuccessModelFormFile
+12:05:07.450  INFO  manager.ListenerTNG - onTestSkipped name --> loginSuccessModelFormFile
+12:05:07.450  INFO  tests.TestBase - The name of method is -->loginSuccessModelFormFile
+12:05:07.450  INFO  manager.ListenerTNG - onTestStart name --> loginSuccessModelFormFile
+12:05:07.450  INFO  manager.ListenerTNG - onTestSkipped name --> loginSuccessModelFormFile
+12:05:07.451  INFO  tests.TestBase - The name of method is -->loginSuccessModelFormFile
+12:05:07.451  INFO  manager.ListenerTNG - onTestStart name --> loginSuccessModelFormFile
+12:05:07.451  INFO  manager.ListenerTNG - onTestSkipped name --> loginSuccessModelFormFile
+12:05:07.451  INFO  tests.TestBase - The name of method is -->loginUnregisteredUser
+12:05:07.452  INFO  manager.ListenerTNG - onTestStart name --> loginUnregisteredUser
+12:05:07.452  INFO  manager.ListenerTNG - onTestSkipped name --> loginUnregisteredUser
+12:05:07.452  INFO  tests.TestBase - The name of method is -->loginWrongEmail
+12:05:07.452  INFO  manager.ListenerTNG - onTestStart name --> loginWrongEmail
+12:05:07.452  INFO  manager.ListenerTNG - onTestSkipped name --> loginWrongEmail
+12:05:07.453  INFO  tests.TestBase - The name of method is -->loginWrongPassword
+12:05:07.453  INFO  manager.ListenerTNG - onTestStart name --> loginWrongPassword
+12:05:07.454  INFO  manager.ListenerTNG - onTestSkipped name --> loginWrongPassword
+12:05:07.454  INFO  tests.TestBase - The name of method is -->registrationSuccess
+12:05:07.454  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.457  INFO  manager.ListenerWD - Test ends with error
+12:05:07.457  INFO  manager.ListenerWD - ===================================
+12:05:07.457  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.457  INFO  manager.ListenerWD - ===================================
+12:05:07.457  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.457  INFO  manager.ListenerWD - ===================================
+12:05:07.457  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.457  INFO  manager.ListenerWD - ===================================
+12:05:07.457  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-310.png
+12:05:07.461  INFO  manager.ListenerTNG - onTestStart name --> registrationSuccess
+12:05:07.461  INFO  manager.ListenerTNG - onTestSkipped name --> registrationSuccess
+12:05:07.462  INFO  tests.TestBase - The name of method is -->registrationUserAlreadyExists
+12:05:07.462  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.465  INFO  manager.ListenerWD - Test ends with error
+12:05:07.465  INFO  manager.ListenerWD - ===================================
+12:05:07.465  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.465  INFO  manager.ListenerWD - ===================================
+12:05:07.465  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.465  INFO  manager.ListenerWD - ===================================
+12:05:07.465  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.465  INFO  manager.ListenerWD - ===================================
+12:05:07.465  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-506.png
+12:05:07.468  INFO  manager.ListenerTNG - onTestStart name --> registrationUserAlreadyExists
+12:05:07.469  INFO  manager.ListenerTNG - onTestSkipped name --> registrationUserAlreadyExists
+12:05:07.469  INFO  tests.TestBase - The name of method is -->registrationWrongEmail
+12:05:07.469  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.472  INFO  manager.ListenerWD - Test ends with error
+12:05:07.472  INFO  manager.ListenerWD - ===================================
+12:05:07.472  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.472  INFO  manager.ListenerWD - ===================================
+12:05:07.472  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.472  INFO  manager.ListenerWD - ===================================
+12:05:07.472  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.472  INFO  manager.ListenerWD - ===================================
+12:05:07.472  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-898.png
+12:05:07.476  INFO  manager.ListenerTNG - onTestStart name --> registrationWrongEmail
+12:05:07.476  INFO  manager.ListenerTNG - onTestSkipped name --> registrationWrongEmail
+12:05:07.476  INFO  tests.TestBase - The name of method is -->registrationWrongPassword
+12:05:07.477  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+12:05:07.480  INFO  manager.ListenerWD - Test ends with error
+12:05:07.480  INFO  manager.ListenerWD - ===================================
+12:05:07.480  INFO  manager.ListenerWD - Method name--> findElements
+12:05:07.480  INFO  manager.ListenerWD - ===================================
+12:05:07.480  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2913cae7bd78e205d6f34624ec902a8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62423/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2913cae7bd78e205d6f34624ec902a8
+12:05:07.480  INFO  manager.ListenerWD - ===================================
+12:05:07.480  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (b2913cae7bd78e205d6f34624ec902a8)
+12:05:07.480  INFO  manager.ListenerWD - ===================================
+12:05:07.480  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-316.png
+12:05:07.483  INFO  manager.ListenerTNG - onTestStart name --> registrationWrongPassword
+12:05:07.484  INFO  manager.ListenerTNG - onTestSkipped name --> registrationWrongPassword
+12:05:07.485  INFO  manager.ListenerTNG - onFinish name --> Gradle test

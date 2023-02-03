@@ -1,0 +1,43 @@
+11:56:42.744  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+11:56:43.718  INFO  manager.ApplicationManager - Current url -->https://telranedu.web.app/home
+11:56:43.735  INFO  tests.TestBase - The name of method is -->addNewContactSuccess
+11:56:43.736  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:56:48.754  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+11:56:48.756  INFO  manager.ListenerWD - List size is --> 0
+11:56:48.757  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+11:56:48.775  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+11:56:48.812  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+11:56:48.827  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+11:56:48.897  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+11:56:48.911  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+11:56:48.972  INFO  manager.ListenerWD - Before find element --> By.cssSelector: button[name='login']
+11:56:48.986  INFO  manager.ListenerWD - After find element --> By.cssSelector: button[name='login']
+11:56:49.023  INFO  tests.TestBase - Test started with data: Contact(name=Alina1377, lastName=White, phone=0865341377, email=alinaw1377@gmail.com, address=Kyiv, Ukraine, description=Childhood friend)
+11:56:49.024  INFO  manager.ListenerWD - Before find element --> By.xpath: //a[@href='/add']
+11:56:50.147  INFO  manager.ListenerWD - After find element --> By.xpath: //a[@href='/add']
+11:56:52.172  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Name']
+11:56:52.186  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Name']
+11:56:52.248  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Last Name']
+11:56:52.262  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Last Name']
+11:56:52.320  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Phone']
+11:56:52.333  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Phone']
+11:56:52.394  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='email']
+11:56:52.407  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='email']
+11:56:52.470  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Address']
+11:56:52.482  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Address']
+11:56:52.545  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='description']
+11:56:52.557  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='description']
+11:56:54.619  INFO  manager.ListenerWD - Before find element --> By.xpath: //b[text()='Save']
+11:56:54.641  INFO  manager.ListenerWD - After find element --> By.xpath: //b[text()='Save']
+11:56:54.683  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: h2
+11:56:55.722  INFO  manager.ListenerWD - After find elements --> By.cssSelector: h2
+11:56:55.723  INFO  manager.ListenerWD - List size is --> 67
+11:56:56.346  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: h3
+11:56:56.528  INFO  manager.ListenerWD - After find elements --> By.cssSelector: h3
+11:56:56.528  INFO  manager.ListenerWD - List size is --> 67
+11:56:57.168  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: h2
+11:56:57.368  INFO  manager.ListenerWD - After find elements --> By.cssSelector: h2
+11:56:57.368  INFO  manager.ListenerWD - List size is --> 67
+11:56:57.840  INFO  manager.ListenerWD - Before find element --> By.xpath: //div[starts-with(@class,'contact-item-detailed_card')]
+11:56:57.857  INFO  manager.ListenerWD - After find element --> By.xpath: //div[starts-with(@class,'contact-item-detailed_card')]
+11:56:57.871  INFO  tests.TestBase - Test passed with success

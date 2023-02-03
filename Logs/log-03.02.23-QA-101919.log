@@ -1,0 +1,64 @@
+10:19:21.227  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+10:19:22.190  INFO  manager.ApplicationManager - Current url -->https://telranedu.web.app/home
+10:19:22.206  INFO  tests.TestBase - The name of method is -->registrationSuccess
+10:19:22.207  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+10:19:27.219  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+10:19:27.221  INFO  manager.ListenerWD - List size is --> 0
+10:19:27.223  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+10:19:27.239  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+10:19:27.276  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+10:19:27.291  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+10:19:27.361  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+10:19:27.376  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+10:19:27.439  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+10:19:27.454  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+10:19:27.478  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+10:19:28.655  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+10:19:28.655  INFO  manager.ListenerWD - List size is --> 1
+10:19:28.658  INFO  tests.TestBase - The name of method is -->registrationUserAlreadyExists
+10:19:28.658  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+10:19:28.671  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+10:19:28.671  INFO  manager.ListenerWD - List size is --> 1
+10:19:28.671  INFO  manager.ListenerWD - Before find element --> By.xpath: //button[text()='Sign Out']
+10:19:28.684  INFO  manager.ListenerWD - After find element --> By.xpath: //button[text()='Sign Out']
+10:19:28.705  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+10:19:28.716  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+10:19:28.738  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+10:19:28.748  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+10:19:28.819  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+10:19:28.828  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+10:19:28.897  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+10:19:28.906  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+10:19:28.927  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+10:19:29.142  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+10:19:29.142  INFO  manager.ListenerWD - List size is --> 0
+10:19:29.157  INFO  tests.TestBase - The name of method is -->registrationWrongEmail
+10:19:29.157  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+10:19:34.212  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+10:19:34.212  INFO  manager.ListenerWD - List size is --> 0
+10:19:34.213  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+10:19:34.222  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+10:19:34.239  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+10:19:34.249  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+10:19:34.329  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+10:19:34.339  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+10:19:34.414  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+10:19:34.424  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+10:19:34.448  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+10:19:34.612  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+10:19:34.613  INFO  manager.ListenerWD - List size is --> 0
+10:19:34.624  INFO  tests.TestBase - The name of method is -->registrationWrongPassword
+10:19:34.625  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+10:19:39.633  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+10:19:39.633  INFO  manager.ListenerWD - List size is --> 0
+10:19:39.633  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+10:19:39.642  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+10:19:39.658  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+10:19:39.668  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+10:19:39.745  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+10:19:39.755  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+10:19:39.822  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+10:19:39.831  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+10:19:39.855  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+10:19:40.024  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+10:19:40.025  INFO  manager.ListenerWD - List size is --> 0
