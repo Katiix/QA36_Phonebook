@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.RegistrationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-02-03T12:06:24" hostname="WIN-UK2CA3OCGGH" time="12.164">
+  <properties/>
+  <testcase name="registrationSuccess" classname="tests.RegistrationTests" time="0.711"/>
+  <testcase name="registrationUserAlreadyExists" classname="tests.RegistrationTests" time="0.439"/>
+  <testcase name="registrationWrongEmail" classname="tests.RegistrationTests" time="0.437"/>
+  <testcase name="registrationWrongPassword" classname="tests.RegistrationTests" time="0.434"/>
+  <system-out><![CDATA[14:06:19.122  INFO  tests.TestBase - The name of method is -->registrationSuccess
+14:06:19.122  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+14:06:24.172  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+14:06:24.172  INFO  manager.ListenerWD - List size is --> 0
+14:06:24.172  INFO  manager.ListenerTNG - onTestStart name --> registrationSuccess
+14:06:24.172  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+14:06:24.178  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+14:06:24.201  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+14:06:24.207  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+14:06:24.283  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+14:06:24.289  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+14:06:24.364  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+14:06:24.372  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+14:06:24.401  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+14:06:24.883  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+14:06:24.883  INFO  manager.ListenerWD - List size is --> 1
+14:06:24.883  INFO  manager.ListenerTNG - onTestSuccess name --> registrationSuccess
+14:06:24.884  INFO  tests.TestBase - The name of method is -->registrationUserAlreadyExists
+14:06:24.884  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+14:06:24.890  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+14:06:24.890  INFO  manager.ListenerWD - List size is --> 1
+14:06:24.890  INFO  manager.ListenerWD - Before find element --> By.xpath: //button[text()='Sign Out']
+14:06:24.898  INFO  manager.ListenerWD - After find element --> By.xpath: //button[text()='Sign Out']
+14:06:24.929  INFO  manager.ListenerTNG - onTestStart name --> registrationUserAlreadyExists
+14:06:24.930  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+14:06:24.936  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+14:06:24.965  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+14:06:24.971  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+14:06:25.040  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+14:06:25.046  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+14:06:25.114  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+14:06:25.120  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+14:06:25.149  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+14:06:25.364  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+14:06:25.364  INFO  manager.ListenerWD - List size is --> 0
+User already exist
+14:06:25.368  INFO  manager.ListenerTNG - onTestSuccess name --> registrationUserAlreadyExists
+14:06:25.369  INFO  tests.TestBase - The name of method is -->registrationWrongEmail
+14:06:25.369  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+14:06:30.416  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+14:06:30.416  INFO  manager.ListenerWD - List size is --> 0
+14:06:30.416  INFO  manager.ListenerTNG - onTestStart name --> registrationWrongEmail
+14:06:30.416  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+14:06:30.422  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+14:06:30.444  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+14:06:30.451  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+14:06:30.523  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+14:06:30.529  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+14:06:30.598  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+14:06:30.605  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+14:06:30.634  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+14:06:30.847  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+14:06:30.847  INFO  manager.ListenerWD - List size is --> 0
+Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!
+14:06:30.853  INFO  manager.ListenerTNG - onTestSuccess name --> registrationWrongEmail
+14:06:30.854  INFO  tests.TestBase - The name of method is -->registrationWrongPassword
+14:06:30.854  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+14:06:35.902  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+14:06:35.902  INFO  manager.ListenerWD - List size is --> 0
+14:06:35.902  INFO  manager.ListenerTNG - onTestStart name --> registrationWrongPassword
+14:06:35.902  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+14:06:35.908  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+14:06:35.930  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+14:06:35.936  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+14:06:36.009  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+14:06:36.015  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+14:06:36.081  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+14:06:36.088  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+14:06:36.118  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+14:06:36.331  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+14:06:36.331  INFO  manager.ListenerWD - List size is --> 0
+Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!
+14:06:36.336  INFO  manager.ListenerTNG - onTestSuccess name --> registrationWrongPassword
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

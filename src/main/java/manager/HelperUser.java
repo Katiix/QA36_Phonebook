@@ -15,7 +15,9 @@ public class HelperUser extends HelperBase {
     }
 
     public void openLoginRegistrationForm() {
-        wd.findElement(By.cssSelector("a[href='/login']")).click();
+        WebElement el = new WebDriverWait(wd, Duration.ofSeconds(10))
+                .until(ExpectedConditions.elementToBeClickable(By.cssSelector("a[href='/login']")));
+        el.click();
     }
 
     public void fillLoginRegistrationForm(String email, String password) {
@@ -28,7 +30,9 @@ public class HelperUser extends HelperBase {
         type(By.cssSelector("input[name='password']"), user.getPassword());
     }
     public void submitLogin() {
-        click(By.cssSelector("button[name='login']"));
+        WebElement el = new WebDriverWait(wd, Duration.ofSeconds(9))
+                .until(ExpectedConditions.elementToBeClickable(By.cssSelector("button[name='login']")));
+        el.click();
     }
 
 
@@ -39,7 +43,9 @@ public class HelperUser extends HelperBase {
     }
 
     public void logout() {
-        click(By.xpath("//button[text()='Sign Out']"));
+        WebElement el = new WebDriverWait(wd, Duration.ofSeconds(9))
+                .until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Sign Out']")));
+        el.click();
     }
 
 
@@ -51,19 +57,12 @@ public class HelperUser extends HelperBase {
         alert.accept();
         return text.contains(message);
     }
-    /*
-    public boolean isErrorMessageDisplayedOld(String message) {
-        Alert alert = wd.switchTo().alert();
-        String text = alert.getText();
-        System.out.println(text);
-        alert.accept();
-        return text.contains(message);
-    }
 
-     */
 
     public void submitRegistration() {
-        click(By.cssSelector("[name='registration']"));
+        WebElement el = new WebDriverWait(wd, Duration.ofSeconds(9))
+                .until(ExpectedConditions.elementToBeClickable(By.cssSelector("[name='registration']")));
+       el.click();
     }
 
     public void login(User user) {

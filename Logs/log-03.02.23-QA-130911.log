@@ -1,0 +1,68 @@
+13:09:12.981  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+13:09:13.901  INFO  manager.ApplicationManager - Current url -->https://telranedu.web.app/home
+13:09:13.904  INFO  manager.ListenerTNG - onStart name --> Gradle test
+13:09:13.918  INFO  tests.TestBase - The name of method is -->addNewContactAddressBlank
+13:09:13.919  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:09:28.567  INFO  manager.ListenerWD - Test ends with error
+13:09:28.568  INFO  manager.ListenerWD - ===================================
+13:09:28.568  INFO  manager.ListenerWD - Method name--> findElements
+13:09:28.568  INFO  manager.ListenerWD - ===================================
+13:09:28.569  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.WebDriverException: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: unable to connect to renderer)
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08392685f2a784b96d152f0ce7764685, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64319}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64319/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08392685f2a784b96d152f0ce7764685
+13:09:28.569  INFO  manager.ListenerWD - ===================================
+13:09:28.570  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (08392685f2a784b96d152f0ce7764685)
+13:09:28.570  INFO  manager.ListenerWD - ===================================
+13:09:28.572  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-527.png
+13:10:00.599  INFO  manager.ListenerTNG - onTestStart name --> addNewContactAddressBlank
+13:10:00.599  INFO  manager.ListenerTNG - onTestSkipped name --> addNewContactAddressBlank
+13:10:00.600  INFO  tests.TestBase - The name of method is -->addNewContactAddressNull
+13:10:00.600  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:10:32.619  INFO  manager.ListenerWD - Test ends with error
+13:10:32.620  INFO  manager.ListenerWD - ===================================
+13:10:32.620  INFO  manager.ListenerWD - Method name--> findElements
+13:10:32.620  INFO  manager.ListenerWD - ===================================
+13:10:32.620  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (failed to check if window was closed: disconnected: unable to connect to renderer)
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08392685f2a784b96d152f0ce7764685, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64319}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64319/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08392685f2a784b96d152f0ce7764685
+13:10:32.620  INFO  manager.ListenerWD - ===================================
+13:10:32.620  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (08392685f2a784b96d152f0ce7764685)
+13:10:32.620  INFO  manager.ListenerWD - ===================================
+13:10:32.620  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-629.png
+13:11:04.640  INFO  manager.ListenerTNG - onTestStart name --> addNewContactAddressNull
+13:11:04.640  INFO  manager.ListenerTNG - onTestSkipped name --> addNewContactAddressNull
+13:11:04.640  INFO  tests.TestBase - The name of method is -->addNewContactBlankEmail
+13:11:04.641  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:11:36.655  INFO  manager.ListenerWD - Test ends with error
+13:11:36.655  INFO  manager.ListenerWD - ===================================
+13:11:36.655  INFO  manager.ListenerWD - Method name--> findElements
+13:11:36.655  INFO  manager.ListenerWD - ===================================
+13:11:36.655  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (failed to check if window was closed: disconnected: unable to connect to renderer)
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08392685f2a784b96d152f0ce7764685, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64319}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64319/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08392685f2a784b96d152f0ce7764685
+13:11:36.655  INFO  manager.ListenerWD - ===================================
+13:11:36.656  INFO  manager.ListenerWD - Object target --> ChromeDriver: chrome on WINDOWS (08392685f2a784b96d152f0ce7764685)
+13:11:36.656  INFO  manager.ListenerWD - ===================================
+13:11:36.656  INFO  manager.ListenerWD - Screen with error is -->src/test/screenshots/screen-799.png
+13:12:08.675  INFO  manager.ListenerTNG - onTestStart name --> addNewContactBlankEmail
+13:12:08.676  INFO  manager.ListenerTNG - onTestSkipped name --> addNewContactBlankEmail
+13:12:08.676  INFO  tests.TestBase - The name of method is -->addNewContactBlankLastName
+13:12:08.676  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']

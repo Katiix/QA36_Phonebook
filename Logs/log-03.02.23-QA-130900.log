@@ -1,0 +1,28 @@
+13:09:03.339  INFO  manager.ApplicationManager - All tests start in Firefox Browser
+13:09:04.660  INFO  manager.ListenerWD - Test ends with error
+13:09:04.660  INFO  manager.ListenerWD - ===================================
+13:09:04.666  INFO  manager.ListenerWD - Method name--> getCurrentUrl
+13:09:04.666  INFO  manager.ListenerWD - ===================================
+13:09:04.670  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [02f8a44c-bb93-4426-899d-3dae2bab595d, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:18930, moz:geckodriverVersion: 0.32.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7652, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:18930/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 02f8a44c-bb93-4426-899d-3dae2bab595d
+13:09:04.671  INFO  manager.ListenerWD - ===================================
+13:09:04.671  INFO  manager.ListenerWD - Object target --> FirefoxDriver: firefox on WINDOWS (02f8a44c-bb93-4426-899d-3dae2bab595d)
+13:09:04.672  INFO  manager.ListenerWD - ===================================
+13:09:04.709  INFO  tests.TestBase - The name of method is -->addNewContactSuccess
+13:09:04.714  INFO  tests.TestBase - The name of method is -->registrationSuccess
+13:09:04.730  INFO  manager.ListenerWD - Test ends with error
+13:09:04.730  INFO  manager.ListenerWD - ===================================
+13:09:04.730  INFO  manager.ListenerWD - Method name--> quit
+13:09:04.730  INFO  manager.ListenerWD - ===================================
+13:09:04.731  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://127.0.0.1:18930/devtools/browser/319af4fd-7a4a-482b-9f01-8659a25c8b5b
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: driver.version: FirefoxDriver
+13:09:04.732  INFO  manager.ListenerWD - ===================================
+13:09:04.732  INFO  manager.ListenerWD - Object target --> FirefoxDriver: firefox on WINDOWS (null)
+13:09:04.732  INFO  manager.ListenerWD - ===================================

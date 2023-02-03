@@ -2,7 +2,10 @@ package manager;
 
 import model.Contact;
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.List;
 
 
@@ -12,7 +15,9 @@ public class HelperContact extends HelperBase{
     }
 
     public void openContactForm(){
-        click(By.xpath("//a[@href='/add']"));
+        WebElement element = new WebDriverWait(wd, Duration.ofSeconds(10))
+                .until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='/add']")));
+        element.click();
 
     }
     public void fillContactForm(Contact contact){
@@ -25,7 +30,10 @@ public class HelperContact extends HelperBase{
     }
 
     public void submit(){
-        click(By.xpath("//b[text()='Save']"));
+        WebElement element = new WebDriverWait(wd, Duration.ofSeconds(10))
+                .until(ExpectedConditions.elementToBeClickable(By.xpath("//b[text()='Save']")));
+        element.click();
+
     }
 
     public String getText() {
@@ -68,7 +76,9 @@ public class HelperContact extends HelperBase{
     }
 
     public boolean isErrorMessageDisplayed(String message) {
-        Alert alert = wd.switchTo().alert();
+        Alert alert = new WebDriverWait(wd, Duration.ofSeconds(10))
+                .until(ExpectedConditions.alertIsPresent());
+        wd.switchTo().alert();
         String text = alert.getText();
         System.out.println(text);
         alert.accept();
@@ -79,6 +89,7 @@ public class HelperContact extends HelperBase{
         return wd.findElements(By.cssSelector("a[href='/add'][class='active']")).size()>0;
     }
 
+    /*
     public boolean isAddPageStillDisplayed() {
         return wd.findElements(By.cssSelector("a.active[href='/add']")).size()>0;
     }
@@ -94,4 +105,6 @@ public class HelperContact extends HelperBase{
         }
         return false;
     }
+
+     */
 }

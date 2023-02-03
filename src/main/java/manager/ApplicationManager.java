@@ -27,11 +27,9 @@ public class ApplicationManager {
     public void init() {
 
         if(browser.equals(Browser.CHROME.browserName())) {
-            System.setProperty("webdriver.chrome.driver","C:\\Tools\\chromedriver.exe");
             wd = new ChromeDriver();
             logger.info("All tests start in Chrome Browser");
         }else if(browser.equals((Browser.FIREFOX.browserName()))){
-            System.setProperty("webdriver.firefox.driver","C:\\Tools\\geckodriver.exe");
             wd = new FirefoxDriver();
             logger.info("All tests start in Firefox Browser");
         }else if(browser.equals(Browser.EDGE.browserName())){

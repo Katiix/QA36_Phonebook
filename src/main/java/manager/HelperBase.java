@@ -3,6 +3,10 @@ package manager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class HelperBase {
     WebDriver wd;
@@ -12,14 +16,17 @@ public class HelperBase {
     }
     public void type(By locator, String text){
         if(text!=null){
-            WebElement element = wd.findElement(locator);
+            WebElement element = new WebDriverWait(wd, Duration.ofSeconds(10))
+                    .until(ExpectedConditions.elementToBeClickable(locator));
             element.click();
             element.clear();
             element.sendKeys(text);
         }
     }
     public void click(By locator){
-        wd.findElement(locator).click();
+        WebElement element = new WebDriverWait(wd, Duration.ofSeconds(10))
+                .until(ExpectedConditions.elementToBeClickable(locator));
+        element.click();
 
     }
 

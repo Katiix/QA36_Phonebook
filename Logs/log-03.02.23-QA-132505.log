@@ -1,0 +1,174 @@
+13:25:07.718  INFO  manager.ApplicationManager - All tests start in Firefox Browser
+13:25:08.845  INFO  manager.ApplicationManager - Current url -->https://telranedu.web.app/home
+13:25:08.933  INFO  manager.ListenerTNG - onStart name --> Nopackage
+13:25:08.949  INFO  tests.TestBase - The name of method is -->addNewContactSuccess
+13:25:08.950  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:25:13.968  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:25:13.969  INFO  manager.ListenerWD - List size is --> 0
+13:25:13.976  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+13:25:13.990  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+13:25:14.239  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+13:25:14.249  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+13:25:14.490  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+13:25:14.500  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+13:25:14.734  INFO  manager.ListenerWD - Before find element --> By.cssSelector: button[name='login']
+13:25:14.742  INFO  manager.ListenerWD - After find element --> By.cssSelector: button[name='login']
+13:25:14.967  INFO  manager.ListenerTNG - onTestStart name --> addNewContactSuccess
+13:25:14.982  INFO  tests.TestBase - Test started with data: Contact(name=Alina1576, lastName=White, phone=0865341576, email=alinaw1576@gmail.com, address=Kyiv, Ukraine, description=Childhood friend)
+13:25:14.983  INFO  manager.ListenerWD - Before find element --> By.xpath: //a[@href='/add']
+13:25:15.979  INFO  manager.ListenerWD - After find element --> By.xpath: //a[@href='/add']
+13:25:16.199  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Name']
+13:25:16.208  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Name']
+13:25:16.438  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Last Name']
+13:25:16.447  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Last Name']
+13:25:16.679  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Phone']
+13:25:16.686  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Phone']
+13:25:16.920  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='email']
+13:25:16.927  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='email']
+13:25:17.162  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Address']
+13:25:17.169  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Address']
+13:25:17.398  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='description']
+13:25:17.405  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='description']
+13:25:17.638  INFO  manager.ListenerWD - Before find element --> By.xpath: //b[text()='Save']
+13:25:17.644  INFO  manager.ListenerWD - After find element --> By.xpath: //b[text()='Save']
+13:25:17.861  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: h2
+13:25:18.695  INFO  manager.ListenerWD - After find elements --> By.cssSelector: h2
+13:25:18.695  INFO  manager.ListenerWD - List size is --> 89
+13:25:18.897  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: h3
+13:25:19.140  INFO  manager.ListenerWD - After find elements --> By.cssSelector: h3
+13:25:19.140  INFO  manager.ListenerWD - List size is --> 89
+13:25:19.326  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: h2
+13:25:19.563  INFO  manager.ListenerWD - After find elements --> By.cssSelector: h2
+13:25:19.563  INFO  manager.ListenerWD - List size is --> 89
+13:25:19.965  INFO  manager.ListenerWD - Before find element --> By.xpath: //div[starts-with(@class,'contact-item-detailed_card')]
+13:25:19.970  INFO  manager.ListenerWD - After find element --> By.xpath: //div[starts-with(@class,'contact-item-detailed_card')]
+13:25:19.976  INFO  tests.TestBase - Test passed with success
+13:25:19.977  INFO  manager.ListenerTNG - onTestSuccess name --> addNewContactSuccess
+13:25:19.979  INFO  tests.TestBase - The name of method is -->registrationSuccess
+13:25:19.979  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:25:19.983  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:25:19.984  INFO  manager.ListenerWD - List size is --> 1
+13:25:19.984  INFO  manager.ListenerWD - Before find element --> By.xpath: //button[text()='Sign Out']
+13:25:19.988  INFO  manager.ListenerWD - After find element --> By.xpath: //button[text()='Sign Out']
+13:25:20.204  INFO  manager.ListenerTNG - onTestStart name --> registrationSuccess
+13:25:20.205  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+13:25:20.209  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+13:25:20.423  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+13:25:20.428  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+13:25:20.663  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+13:25:20.668  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+13:25:20.896  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+13:25:20.900  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+13:25:21.116  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:25:21.397  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:25:21.397  INFO  manager.ListenerWD - List size is --> 1
+13:25:21.397  INFO  manager.ListenerTNG - onTestSuccess name --> registrationSuccess
+13:25:21.399  INFO  tests.TestBase - The name of method is -->loginSuccess
+13:25:21.399  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess
+13:25:21.403  INFO  tests.TestBase - Login with valid data: email - kate@gmail.com, password - Kkate12345$
+13:25:21.403  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+13:25:26.414  INFO  manager.ListenerWD - Test ends with error
+13:25:26.414  INFO  manager.ListenerWD - ===================================
+13:25:26.414  INFO  manager.ListenerWD - Method name--> findElement
+13:25:26.414  INFO  manager.ListenerWD - ===================================
+13:25:26.415  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchElementException: Unable to locate element: a[href='/login']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [389e9789-d374-417b-a851-83b366f1e409, findElement {using=css selector, value=a[href='/login']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:42127, moz:geckodriverVersion: 0.32.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8396, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:42127/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 389e9789-d374-417b-a851-83b366f1e409
+13:25:26.415  INFO  manager.ListenerWD - ===================================
+13:25:26.415  INFO  manager.ListenerWD - Object target --> FirefoxDriver: firefox on WINDOWS (389e9789-d374-417b-a851-83b366f1e409)
+13:25:26.415  INFO  manager.ListenerWD - ===================================
+13:25:26.926  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+13:25:31.932  INFO  manager.ListenerWD - Test ends with error
+13:25:31.933  INFO  manager.ListenerWD - ===================================
+13:25:31.933  INFO  manager.ListenerWD - Method name--> findElement
+13:25:31.933  INFO  manager.ListenerWD - ===================================
+13:25:31.933  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchElementException: Unable to locate element: a[href='/login']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [389e9789-d374-417b-a851-83b366f1e409, findElement {using=css selector, value=a[href='/login']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:42127, moz:geckodriverVersion: 0.32.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8396, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:42127/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 389e9789-d374-417b-a851-83b366f1e409
+13:25:31.933  INFO  manager.ListenerWD - ===================================
+13:25:31.933  INFO  manager.ListenerWD - Object target --> FirefoxDriver: firefox on WINDOWS (389e9789-d374-417b-a851-83b366f1e409)
+13:25:31.933  INFO  manager.ListenerWD - ===================================
+13:25:31.936  INFO  manager.ListenerTNG - onTestFailure name --> loginSuccess
+13:25:31.936  INFO  tests.TestBase - The name of method is -->loginSuccess
+13:25:31.937  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess
+13:25:31.937  INFO  tests.TestBase - Login with valid data: email - kate@gmail.com, password - Kkate12345$
+13:25:31.937  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+13:25:36.941  INFO  manager.ListenerWD - Test ends with error
+13:25:36.941  INFO  manager.ListenerWD - ===================================
+13:25:36.941  INFO  manager.ListenerWD - Method name--> findElement
+13:25:36.941  INFO  manager.ListenerWD - ===================================
+13:25:36.941  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchElementException: Unable to locate element: a[href='/login']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [389e9789-d374-417b-a851-83b366f1e409, findElement {using=css selector, value=a[href='/login']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:42127, moz:geckodriverVersion: 0.32.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8396, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:42127/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 389e9789-d374-417b-a851-83b366f1e409
+13:25:36.941  INFO  manager.ListenerWD - ===================================
+13:25:36.941  INFO  manager.ListenerWD - Object target --> FirefoxDriver: firefox on WINDOWS (389e9789-d374-417b-a851-83b366f1e409)
+13:25:36.941  INFO  manager.ListenerWD - ===================================
+13:25:37.443  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+13:25:42.456  INFO  manager.ListenerWD - Test ends with error
+13:25:42.456  INFO  manager.ListenerWD - ===================================
+13:25:42.456  INFO  manager.ListenerWD - Method name--> findElement
+13:25:42.456  INFO  manager.ListenerWD - ===================================
+13:25:42.456  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchElementException: Unable to locate element: a[href='/login']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [389e9789-d374-417b-a851-83b366f1e409, findElement {using=css selector, value=a[href='/login']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:42127, moz:geckodriverVersion: 0.32.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8396, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:42127/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 389e9789-d374-417b-a851-83b366f1e409
+13:25:42.456  INFO  manager.ListenerWD - ===================================
+13:25:42.456  INFO  manager.ListenerWD - Object target --> FirefoxDriver: firefox on WINDOWS (389e9789-d374-417b-a851-83b366f1e409)
+13:25:42.456  INFO  manager.ListenerWD - ===================================
+13:25:42.458  INFO  manager.ListenerTNG - onTestFailure name --> loginSuccess
+13:25:42.459  INFO  tests.TestBase - The name of method is -->loginSuccess
+13:25:42.459  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess
+13:25:42.459  INFO  tests.TestBase - Login with valid data: email - kate@gmail.com, password - Kkate12345$
+13:25:42.459  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+13:25:47.465  INFO  manager.ListenerWD - Test ends with error
+13:25:47.465  INFO  manager.ListenerWD - ===================================
+13:25:47.465  INFO  manager.ListenerWD - Method name--> findElement
+13:25:47.465  INFO  manager.ListenerWD - ===================================
+13:25:47.465  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchElementException: Unable to locate element: a[href='/login']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [389e9789-d374-417b-a851-83b366f1e409, findElement {using=css selector, value=a[href='/login']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:42127, moz:geckodriverVersion: 0.32.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8396, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:42127/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 389e9789-d374-417b-a851-83b366f1e409
+13:25:47.465  INFO  manager.ListenerWD - ===================================
+13:25:47.465  INFO  manager.ListenerWD - Object target --> FirefoxDriver: firefox on WINDOWS (389e9789-d374-417b-a851-83b366f1e409)
+13:25:47.465  INFO  manager.ListenerWD - ===================================
+13:25:47.967  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+13:25:52.975  INFO  manager.ListenerWD - Test ends with error
+13:25:52.975  INFO  manager.ListenerWD - ===================================
+13:25:52.975  INFO  manager.ListenerWD - Method name--> findElement
+13:25:52.975  INFO  manager.ListenerWD - ===================================
+13:25:52.975  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoSuchElementException: Unable to locate element: a[href='/login']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [389e9789-d374-417b-a851-83b366f1e409, findElement {using=css selector, value=a[href='/login']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:42127, moz:geckodriverVersion: 0.32.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8396, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:42127/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 389e9789-d374-417b-a851-83b366f1e409
+13:25:52.975  INFO  manager.ListenerWD - ===================================
+13:25:52.975  INFO  manager.ListenerWD - Object target --> FirefoxDriver: firefox on WINDOWS (389e9789-d374-417b-a851-83b366f1e409)
+13:25:52.975  INFO  manager.ListenerWD - ===================================
+13:25:52.977  INFO  manager.ListenerTNG - onTestFailure name --> loginSuccess
+13:25:52.978  INFO  manager.ListenerTNG - onFinish name --> Nopackage

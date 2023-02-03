@@ -18,7 +18,7 @@ import java.util.List;
 @Listeners(ListenerTNG.class)
 public class LoginTests extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition() {
         if (app.getHelperUser().isLogged()) {
             app.getHelperUser().logout();
@@ -69,7 +69,7 @@ public class LoginTests extends TestBase {
 
     }
 
-    @Test(dataProvider = "loginDataUserFromFile", dataProviderClass = DataProviderUser.class)
+    @Test(dataProvider = "loginDataUserFromFile", dataProviderClass = DataProviderUser.class, groups = "smoke")
     public void loginSuccessModelFormFile(User user) {
         logger.info("Login with valid data: " + user.toString());
         app.getHelperUser().openLoginRegistrationForm();

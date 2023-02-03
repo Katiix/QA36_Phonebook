@@ -1,0 +1,1000 @@
+13:39:37.296  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+13:39:38.583  INFO  manager.ApplicationManager - Current url -->https://telranedu.web.app/home
+13:39:38.586  INFO  manager.ListenerTNG - onStart name --> Gradle test
+13:39:38.600  INFO  tests.TestBase - The name of method is -->addNewContactAddressBlank
+13:39:38.601  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:39:43.616  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:39:43.618  INFO  manager.ListenerWD - List size is --> 0
+13:39:43.621  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+13:39:43.639  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+13:39:43.700  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+13:39:43.716  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+13:39:43.826  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+13:39:43.841  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+13:39:43.918  INFO  manager.ListenerWD - Before find element --> By.cssSelector: button[name='login']
+13:39:43.932  INFO  manager.ListenerWD - After find element --> By.cssSelector: button[name='login']
+13:39:43.971  INFO  manager.ListenerTNG - onTestStart name --> addNewContactAddressBlank
+13:39:43.974  INFO  tests.TestBase - Test started with address:  
+13:39:43.974  INFO  manager.ListenerWD - Before find element --> By.xpath: //a[@href='/add']
+13:39:45.152  INFO  manager.ListenerWD - After find element --> By.xpath: //a[@href='/add']
+13:39:45.193  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Name']
+13:39:45.207  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Name']
+13:39:45.309  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:45.330  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:45.422  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Phone']
+13:39:45.436  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Phone']
+13:39:45.518  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='email']
+13:39:45.532  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='email']
+13:39:45.612  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Address']
+13:39:45.625  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Address']
+13:39:45.698  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='description']
+13:39:45.709  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='description']
+13:39:45.783  INFO  manager.ListenerWD - Before find element --> By.xpath: //b[text()='Save']
+13:39:45.795  INFO  manager.ListenerWD - After find element --> By.xpath: //b[text()='Save']
+13:39:45.828  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: a[href='/add'][class='active']
+13:39:45.840  INFO  manager.ListenerWD - After find elements --> By.cssSelector: a[href='/add'][class='active']
+13:39:45.840  INFO  manager.ListenerWD - List size is --> 1
+13:39:45.842  INFO  tests.TestBase - Test passed with success
+13:39:45.843  INFO  manager.ListenerTNG - onTestSuccess name --> addNewContactAddressBlank
+13:39:45.843  INFO  tests.TestBase - The name of method is -->addNewContactAddressNull
+13:39:45.844  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:39:45.853  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:39:45.853  INFO  manager.ListenerWD - List size is --> 1
+13:39:45.854  INFO  manager.ListenerTNG - onTestStart name --> addNewContactAddressNull
+13:39:45.854  INFO  tests.TestBase - Test started with address: 
+13:39:45.855  INFO  manager.ListenerWD - Before find element --> By.xpath: //a[@href='/add']
+13:39:45.863  INFO  manager.ListenerWD - After find element --> By.xpath: //a[@href='/add']
+13:39:45.892  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Name']
+13:39:45.901  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Name']
+13:39:45.963  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:45.972  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:46.030  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Phone']
+13:39:46.041  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Phone']
+13:39:46.101  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='email']
+13:39:46.110  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='email']
+13:39:46.174  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Address']
+13:39:46.183  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Address']
+13:39:46.235  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='description']
+13:39:46.244  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='description']
+13:39:46.303  INFO  manager.ListenerWD - Before find element --> By.xpath: //b[text()='Save']
+13:39:46.312  INFO  manager.ListenerWD - After find element --> By.xpath: //b[text()='Save']
+13:39:46.336  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: a[href='/add'][class='active']
+13:39:46.344  INFO  manager.ListenerWD - After find elements --> By.cssSelector: a[href='/add'][class='active']
+13:39:46.345  INFO  manager.ListenerWD - List size is --> 1
+13:39:46.345  INFO  tests.TestBase - Test passed with success
+13:39:46.345  INFO  manager.ListenerTNG - onTestSuccess name --> addNewContactAddressNull
+13:39:46.346  INFO  tests.TestBase - The name of method is -->addNewContactBlankEmail
+13:39:46.346  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:39:46.354  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:39:46.355  INFO  manager.ListenerWD - List size is --> 1
+13:39:46.355  INFO  manager.ListenerTNG - onTestStart name --> addNewContactBlankEmail
+13:39:46.355  INFO  tests.TestBase - Test started with email:  
+13:39:46.355  INFO  manager.ListenerWD - Before find element --> By.xpath: //a[@href='/add']
+13:39:46.364  INFO  manager.ListenerWD - After find element --> By.xpath: //a[@href='/add']
+13:39:46.388  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Name']
+13:39:46.398  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Name']
+13:39:46.456  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:46.465  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:46.520  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Phone']
+13:39:46.528  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Phone']
+13:39:46.582  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='email']
+13:39:46.591  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='email']
+13:39:46.647  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Address']
+13:39:46.655  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Address']
+13:39:46.713  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='description']
+13:39:46.721  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='description']
+13:39:46.777  INFO  manager.ListenerWD - Before find element --> By.xpath: //b[text()='Save']
+13:39:46.785  INFO  manager.ListenerWD - After find element --> By.xpath: //b[text()='Save']
+13:39:46.817  INFO  manager.ListenerWD - Test ends with error
+13:39:46.817  INFO  manager.ListenerWD - ===================================
+13:39:46.818  INFO  manager.ListenerWD - Method name--> alert
+13:39:46.818  INFO  manager.ListenerWD - ===================================
+13:39:46.818  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee38dd18ba5f621b4450e4b7bba7e59a, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61332/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ee38dd18ba5f621b4450e4b7bba7e59a
+13:39:46.818  INFO  manager.ListenerWD - ===================================
+13:39:46.819  INFO  manager.ListenerWD - Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@3f857e08
+13:39:46.819  INFO  manager.ListenerWD - ===================================
+13:39:47.353  INFO  tests.TestBase - Test passed with success
+13:39:47.354  INFO  manager.ListenerTNG - onTestSuccess name --> addNewContactBlankEmail
+13:39:47.354  INFO  tests.TestBase - The name of method is -->addNewContactBlankLastName
+13:39:47.354  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:39:47.366  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:39:47.366  INFO  manager.ListenerWD - List size is --> 1
+13:39:47.366  INFO  manager.ListenerTNG - onTestStart name --> addNewContactBlankLastName
+13:39:47.367  INFO  tests.TestBase - Test started with last name:  
+13:39:47.367  INFO  manager.ListenerWD - Before find element --> By.xpath: //a[@href='/add']
+13:39:47.376  INFO  manager.ListenerWD - After find element --> By.xpath: //a[@href='/add']
+13:39:47.404  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Name']
+13:39:47.413  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Name']
+13:39:47.472  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:47.481  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:47.536  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Phone']
+13:39:47.544  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Phone']
+13:39:47.600  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='email']
+13:39:47.609  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='email']
+13:39:47.670  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Address']
+13:39:47.686  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Address']
+13:39:47.742  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='description']
+13:39:47.750  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='description']
+13:39:47.808  INFO  manager.ListenerWD - Before find element --> By.xpath: //b[text()='Save']
+13:39:47.816  INFO  manager.ListenerWD - After find element --> By.xpath: //b[text()='Save']
+13:39:47.837  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: a[href='/add'][class='active']
+13:39:47.845  INFO  manager.ListenerWD - After find elements --> By.cssSelector: a[href='/add'][class='active']
+13:39:47.845  INFO  manager.ListenerWD - List size is --> 1
+13:39:47.845  INFO  tests.TestBase - Test passed with success
+13:39:47.845  INFO  manager.ListenerTNG - onTestSuccess name --> addNewContactBlankLastName
+13:39:47.846  INFO  tests.TestBase - The name of method is -->addNewContactBlankName
+13:39:47.846  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:39:47.854  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:39:47.854  INFO  manager.ListenerWD - List size is --> 1
+13:39:47.854  INFO  manager.ListenerTNG - onTestStart name --> addNewContactBlankName
+13:39:47.855  INFO  tests.TestBase - Test started with name:  
+13:39:47.855  INFO  manager.ListenerWD - Before find element --> By.xpath: //a[@href='/add']
+13:39:47.862  INFO  manager.ListenerWD - After find element --> By.xpath: //a[@href='/add']
+13:39:47.884  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Name']
+13:39:47.893  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Name']
+13:39:47.945  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:47.952  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:48.007  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Phone']
+13:39:48.015  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Phone']
+13:39:48.076  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='email']
+13:39:48.085  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='email']
+13:39:48.154  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Address']
+13:39:48.163  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Address']
+13:39:48.229  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='description']
+13:39:48.237  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='description']
+13:39:48.301  INFO  manager.ListenerWD - Before find element --> By.xpath: //b[text()='Save']
+13:39:48.309  INFO  manager.ListenerWD - After find element --> By.xpath: //b[text()='Save']
+13:39:48.333  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: a[href='/add'][class='active']
+13:39:48.341  INFO  manager.ListenerWD - After find elements --> By.cssSelector: a[href='/add'][class='active']
+13:39:48.341  INFO  manager.ListenerWD - List size is --> 1
+13:39:48.341  INFO  tests.TestBase - Test passed with success
+13:39:48.341  INFO  manager.ListenerTNG - onTestSuccess name --> addNewContactBlankName
+13:39:48.342  INFO  tests.TestBase - The name of method is -->addNewContactMinimumCharAfterAtEmail
+13:39:48.342  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:39:48.350  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:39:48.350  INFO  manager.ListenerWD - List size is --> 1
+13:39:48.351  INFO  manager.ListenerTNG - onTestStart name --> addNewContactMinimumCharAfterAtEmail
+13:39:48.351  INFO  tests.TestBase - Test started with email: alinaw1455@
+13:39:48.351  INFO  manager.ListenerWD - Before find element --> By.xpath: //a[@href='/add']
+13:39:48.359  INFO  manager.ListenerWD - After find element --> By.xpath: //a[@href='/add']
+13:39:48.387  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Name']
+13:39:48.395  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Name']
+13:39:48.453  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:48.462  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:48.517  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Phone']
+13:39:48.525  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Phone']
+13:39:48.581  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='email']
+13:39:48.588  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='email']
+13:39:48.646  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Address']
+13:39:48.653  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Address']
+13:39:48.707  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='description']
+13:39:48.714  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='description']
+13:39:48.772  INFO  manager.ListenerWD - Before find element --> By.xpath: //b[text()='Save']
+13:39:48.780  INFO  manager.ListenerWD - After find element --> By.xpath: //b[text()='Save']
+13:39:48.805  INFO  manager.ListenerWD - Test ends with error
+13:39:48.805  INFO  manager.ListenerWD - ===================================
+13:39:48.805  INFO  manager.ListenerWD - Method name--> alert
+13:39:48.805  INFO  manager.ListenerWD - ===================================
+13:39:48.805  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee38dd18ba5f621b4450e4b7bba7e59a, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61332/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ee38dd18ba5f621b4450e4b7bba7e59a
+13:39:48.805  INFO  manager.ListenerWD - ===================================
+13:39:48.805  INFO  manager.ListenerWD - Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@4ef5dd23
+13:39:48.805  INFO  manager.ListenerWD - ===================================
+13:39:49.319  INFO  tests.TestBase - Test passed with success
+13:39:49.319  INFO  manager.ListenerTNG - onTestSuccess name --> addNewContactMinimumCharAfterAtEmail
+13:39:49.319  INFO  tests.TestBase - The name of method is -->addNewContactMinimumCharBeforeAtEmail
+13:39:49.320  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:39:49.328  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:39:49.328  INFO  manager.ListenerWD - List size is --> 1
+13:39:49.328  INFO  manager.ListenerTNG - onTestStart name --> addNewContactMinimumCharBeforeAtEmail
+13:39:49.328  INFO  tests.TestBase - Test started with email: @gmail.com
+13:39:49.328  INFO  manager.ListenerWD - Before find element --> By.xpath: //a[@href='/add']
+13:39:49.336  INFO  manager.ListenerWD - After find element --> By.xpath: //a[@href='/add']
+13:39:49.359  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Name']
+13:39:49.367  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Name']
+13:39:49.422  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:49.429  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:49.482  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Phone']
+13:39:49.490  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Phone']
+13:39:49.549  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='email']
+13:39:49.557  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='email']
+13:39:49.612  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Address']
+13:39:49.619  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Address']
+13:39:49.674  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='description']
+13:39:49.684  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='description']
+13:39:49.742  INFO  manager.ListenerWD - Before find element --> By.xpath: //b[text()='Save']
+13:39:49.751  INFO  manager.ListenerWD - After find element --> By.xpath: //b[text()='Save']
+13:39:49.779  INFO  manager.ListenerWD - Test ends with error
+13:39:49.779  INFO  manager.ListenerWD - ===================================
+13:39:49.779  INFO  manager.ListenerWD - Method name--> alert
+13:39:49.779  INFO  manager.ListenerWD - ===================================
+13:39:49.779  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee38dd18ba5f621b4450e4b7bba7e59a, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61332/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ee38dd18ba5f621b4450e4b7bba7e59a
+13:39:49.779  INFO  manager.ListenerWD - ===================================
+13:39:49.779  INFO  manager.ListenerWD - Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@56835f2f
+13:39:49.779  INFO  manager.ListenerWD - ===================================
+13:39:50.292  INFO  tests.TestBase - Test passed with success
+13:39:50.293  INFO  manager.ListenerTNG - onTestSuccess name --> addNewContactMinimumCharBeforeAtEmail
+13:39:50.293  INFO  tests.TestBase - The name of method is -->addNewContactNullLastName
+13:39:50.294  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:39:50.302  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:39:50.302  INFO  manager.ListenerWD - List size is --> 1
+13:39:50.302  INFO  manager.ListenerTNG - onTestStart name --> addNewContactNullLastName
+13:39:50.302  INFO  tests.TestBase - Test started with last name: 
+13:39:50.302  INFO  manager.ListenerWD - Before find element --> By.xpath: //a[@href='/add']
+13:39:50.310  INFO  manager.ListenerWD - After find element --> By.xpath: //a[@href='/add']
+13:39:50.336  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Name']
+13:39:50.344  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Name']
+13:39:50.400  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:50.407  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:50.458  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Phone']
+13:39:50.466  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Phone']
+13:39:50.530  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='email']
+13:39:50.540  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='email']
+13:39:50.608  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Address']
+13:39:50.616  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Address']
+13:39:50.673  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='description']
+13:39:50.683  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='description']
+13:39:50.748  INFO  manager.ListenerWD - Before find element --> By.xpath: //b[text()='Save']
+13:39:50.757  INFO  manager.ListenerWD - After find element --> By.xpath: //b[text()='Save']
+13:39:50.778  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: a[href='/add'][class='active']
+13:39:50.786  INFO  manager.ListenerWD - After find elements --> By.cssSelector: a[href='/add'][class='active']
+13:39:50.786  INFO  manager.ListenerWD - List size is --> 1
+13:39:50.786  INFO  tests.TestBase - Test passed with success
+13:39:50.786  INFO  manager.ListenerTNG - onTestSuccess name --> addNewContactNullLastName
+13:39:50.787  INFO  tests.TestBase - The name of method is -->addNewContactNullName
+13:39:50.787  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:39:50.794  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:39:50.794  INFO  manager.ListenerWD - List size is --> 1
+13:39:50.795  INFO  manager.ListenerTNG - onTestStart name --> addNewContactNullName
+13:39:50.795  INFO  tests.TestBase - Test started with name: 
+13:39:50.795  INFO  manager.ListenerWD - Before find element --> By.xpath: //a[@href='/add']
+13:39:50.803  INFO  manager.ListenerWD - After find element --> By.xpath: //a[@href='/add']
+13:39:50.826  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Name']
+13:39:50.834  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Name']
+13:39:50.886  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:50.893  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:50.950  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Phone']
+13:39:50.958  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Phone']
+13:39:50.994  INFO  manager.ListenerWD - Test ends with error
+13:39:50.994  INFO  manager.ListenerWD - ===================================
+13:39:50.994  INFO  manager.ListenerWD - Method name--> clear
+13:39:50.994  INFO  manager.ListenerWD - ===================================
+13:39:50.994  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee38dd18ba5f621b4450e4b7bba7e59a, clearElement {id=62c814c1-f98e-4728-8a84-4ba4989eee95}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61332/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ee38dd18ba5f621b4450e4b7bba7e59a)] -> css selector: input[placeholder='Phone']]
+Session ID: ee38dd18ba5f621b4450e4b7bba7e59a
+13:39:50.995  INFO  manager.ListenerWD - ===================================
+13:39:50.995  INFO  manager.ListenerWD - Object target --> [[ChromeDriver: chrome on WINDOWS (ee38dd18ba5f621b4450e4b7bba7e59a)] -> css selector: input[placeholder='Phone']]
+13:39:50.995  INFO  manager.ListenerWD - ===================================
+13:39:50.996  INFO  manager.ListenerTNG - onTestFailure name --> addNewContactNullName
+13:39:50.996  INFO  tests.TestBase - The name of method is -->addNewContactPhoneBlank
+13:39:50.997  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:39:51.005  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:39:51.005  INFO  manager.ListenerWD - List size is --> 1
+13:39:51.005  INFO  manager.ListenerTNG - onTestStart name --> addNewContactPhoneBlank
+13:39:51.006  INFO  tests.TestBase - Test started with phone:  
+13:39:51.006  INFO  manager.ListenerWD - Before find element --> By.xpath: //a[@href='/add']
+13:39:51.014  INFO  manager.ListenerWD - After find element --> By.xpath: //a[@href='/add']
+13:39:51.039  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Name']
+13:39:51.046  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Name']
+13:39:51.119  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:51.127  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:51.193  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Phone']
+13:39:51.200  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Phone']
+13:39:51.267  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='email']
+13:39:51.275  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='email']
+13:39:51.348  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Address']
+13:39:51.355  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Address']
+13:39:51.420  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='description']
+13:39:51.427  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='description']
+13:39:51.495  INFO  manager.ListenerWD - Before find element --> By.xpath: //b[text()='Save']
+13:39:51.503  INFO  manager.ListenerWD - After find element --> By.xpath: //b[text()='Save']
+13:39:51.537  INFO  manager.ListenerWD - Test ends with error
+13:39:51.537  INFO  manager.ListenerWD - ===================================
+13:39:51.537  INFO  manager.ListenerWD - Method name--> alert
+13:39:51.537  INFO  manager.ListenerWD - ===================================
+13:39:51.538  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee38dd18ba5f621b4450e4b7bba7e59a, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61332/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ee38dd18ba5f621b4450e4b7bba7e59a
+13:39:51.538  INFO  manager.ListenerWD - ===================================
+13:39:51.538  INFO  manager.ListenerWD - Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@1cc93da4
+13:39:51.538  INFO  manager.ListenerWD - ===================================
+13:39:52.051  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: a[href='/add'][class='active']
+13:39:52.058  INFO  manager.ListenerWD - After find elements --> By.cssSelector: a[href='/add'][class='active']
+13:39:52.058  INFO  manager.ListenerWD - List size is --> 1
+13:39:52.058  INFO  tests.TestBase - Test passed with success
+13:39:52.058  INFO  manager.ListenerTNG - onTestSuccess name --> addNewContactPhoneBlank
+13:39:52.059  INFO  tests.TestBase - The name of method is -->addNewContactPhoneMaximumNumbers
+13:39:52.059  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:39:52.066  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:39:52.066  INFO  manager.ListenerWD - List size is --> 1
+13:39:52.066  INFO  manager.ListenerTNG - onTestStart name --> addNewContactPhoneMaximumNumbers
+13:39:52.066  INFO  tests.TestBase - Test started with phone: 08655555555555555555555
+13:39:52.066  INFO  manager.ListenerWD - Before find element --> By.xpath: //a[@href='/add']
+13:39:52.075  INFO  manager.ListenerWD - After find element --> By.xpath: //a[@href='/add']
+13:39:52.098  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Name']
+13:39:52.107  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Name']
+13:39:52.166  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:52.173  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:52.229  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Phone']
+13:39:52.237  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Phone']
+13:39:52.300  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='email']
+13:39:52.309  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='email']
+13:39:52.369  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Address']
+13:39:52.377  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Address']
+13:39:52.435  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='description']
+13:39:52.443  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='description']
+13:39:52.503  INFO  manager.ListenerWD - Before find element --> By.xpath: //b[text()='Save']
+13:39:52.510  INFO  manager.ListenerWD - After find element --> By.xpath: //b[text()='Save']
+13:39:52.535  INFO  manager.ListenerWD - Test ends with error
+13:39:52.535  INFO  manager.ListenerWD - ===================================
+13:39:52.535  INFO  manager.ListenerWD - Method name--> alert
+13:39:52.535  INFO  manager.ListenerWD - ===================================
+13:39:52.535  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee38dd18ba5f621b4450e4b7bba7e59a, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61332/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ee38dd18ba5f621b4450e4b7bba7e59a
+13:39:52.535  INFO  manager.ListenerWD - ===================================
+13:39:52.535  INFO  manager.ListenerWD - Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@3cad24ae
+13:39:52.535  INFO  manager.ListenerWD - ===================================
+13:39:53.047  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: a[href='/add'][class='active']
+13:39:53.054  INFO  manager.ListenerWD - After find elements --> By.cssSelector: a[href='/add'][class='active']
+13:39:53.054  INFO  manager.ListenerWD - List size is --> 1
+13:39:53.054  INFO  tests.TestBase - Test passed with success
+13:39:53.054  INFO  manager.ListenerTNG - onTestSuccess name --> addNewContactPhoneMaximumNumbers
+13:39:53.055  INFO  tests.TestBase - The name of method is -->addNewContactPhoneMinimumNumbers
+13:39:53.055  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:39:53.062  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:39:53.062  INFO  manager.ListenerWD - List size is --> 1
+13:39:53.062  INFO  manager.ListenerTNG - onTestStart name --> addNewContactPhoneMinimumNumbers
+13:39:53.062  INFO  tests.TestBase - Test started with phone: 086555
+13:39:53.062  INFO  manager.ListenerWD - Before find element --> By.xpath: //a[@href='/add']
+13:39:53.069  INFO  manager.ListenerWD - After find element --> By.xpath: //a[@href='/add']
+13:39:53.091  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Name']
+13:39:53.098  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Name']
+13:39:53.156  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:53.163  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:53.212  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Phone']
+13:39:53.219  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Phone']
+13:39:53.270  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='email']
+13:39:53.278  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='email']
+13:39:53.337  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Address']
+13:39:53.344  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Address']
+13:39:53.398  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='description']
+13:39:53.405  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='description']
+13:39:53.464  INFO  manager.ListenerWD - Before find element --> By.xpath: //b[text()='Save']
+13:39:53.481  INFO  manager.ListenerWD - After find element --> By.xpath: //b[text()='Save']
+13:39:53.505  INFO  manager.ListenerWD - Test ends with error
+13:39:53.505  INFO  manager.ListenerWD - ===================================
+13:39:53.505  INFO  manager.ListenerWD - Method name--> alert
+13:39:53.505  INFO  manager.ListenerWD - ===================================
+13:39:53.506  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee38dd18ba5f621b4450e4b7bba7e59a, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61332/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ee38dd18ba5f621b4450e4b7bba7e59a
+13:39:53.506  INFO  manager.ListenerWD - ===================================
+13:39:53.506  INFO  manager.ListenerWD - Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@56499781
+13:39:53.506  INFO  manager.ListenerWD - ===================================
+13:39:54.016  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: a[href='/add'][class='active']
+13:39:54.023  INFO  manager.ListenerWD - After find elements --> By.cssSelector: a[href='/add'][class='active']
+13:39:54.023  INFO  manager.ListenerWD - List size is --> 1
+13:39:54.023  INFO  tests.TestBase - Test passed with success
+13:39:54.023  INFO  manager.ListenerTNG - onTestSuccess name --> addNewContactPhoneMinimumNumbers
+13:39:54.023  INFO  tests.TestBase - The name of method is -->addNewContactPhoneNotNumbers
+13:39:54.023  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:39:54.030  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:39:54.030  INFO  manager.ListenerWD - List size is --> 1
+13:39:54.030  INFO  manager.ListenerTNG - onTestStart name --> addNewContactPhoneNotNumbers
+13:39:54.031  INFO  tests.TestBase - Test started with phone: 086oooooooooo
+13:39:54.031  INFO  manager.ListenerWD - Before find element --> By.xpath: //a[@href='/add']
+13:39:54.037  INFO  manager.ListenerWD - After find element --> By.xpath: //a[@href='/add']
+13:39:54.058  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Name']
+13:39:54.065  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Name']
+13:39:54.120  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:54.127  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:54.184  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Phone']
+13:39:54.191  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Phone']
+13:39:54.248  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='email']
+13:39:54.256  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='email']
+13:39:54.314  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Address']
+13:39:54.321  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Address']
+13:39:54.372  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='description']
+13:39:54.379  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='description']
+13:39:54.434  INFO  manager.ListenerWD - Before find element --> By.xpath: //b[text()='Save']
+13:39:54.440  INFO  manager.ListenerWD - After find element --> By.xpath: //b[text()='Save']
+13:39:54.464  INFO  manager.ListenerWD - Test ends with error
+13:39:54.464  INFO  manager.ListenerWD - ===================================
+13:39:54.464  INFO  manager.ListenerWD - Method name--> alert
+13:39:54.464  INFO  manager.ListenerWD - ===================================
+13:39:54.464  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee38dd18ba5f621b4450e4b7bba7e59a, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61332/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ee38dd18ba5f621b4450e4b7bba7e59a
+13:39:54.464  INFO  manager.ListenerWD - ===================================
+13:39:54.464  INFO  manager.ListenerWD - Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@76b642aa
+13:39:54.464  INFO  manager.ListenerWD - ===================================
+13:39:54.974  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: a[href='/add'][class='active']
+13:39:54.981  INFO  manager.ListenerWD - After find elements --> By.cssSelector: a[href='/add'][class='active']
+13:39:54.981  INFO  manager.ListenerWD - List size is --> 1
+13:39:54.981  INFO  tests.TestBase - Test passed with success
+13:39:54.981  INFO  manager.ListenerTNG - onTestSuccess name --> addNewContactPhoneNotNumbers
+13:39:54.982  INFO  tests.TestBase - The name of method is -->addNewContactPhoneNull
+13:39:54.982  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:39:54.988  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:39:54.988  INFO  manager.ListenerWD - List size is --> 1
+13:39:54.989  INFO  manager.ListenerTNG - onTestStart name --> addNewContactPhoneNull
+13:39:54.989  INFO  tests.TestBase - Test started with phone: 
+13:39:54.989  INFO  manager.ListenerWD - Before find element --> By.xpath: //a[@href='/add']
+13:39:54.995  INFO  manager.ListenerWD - After find element --> By.xpath: //a[@href='/add']
+13:39:55.017  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Name']
+13:39:55.024  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Name']
+13:39:55.077  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:55.084  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:55.134  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Phone']
+13:39:55.141  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Phone']
+13:39:55.188  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='email']
+13:39:55.195  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='email']
+13:39:55.250  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Address']
+13:39:55.257  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Address']
+13:39:55.307  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='description']
+13:39:55.314  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='description']
+13:39:55.367  INFO  manager.ListenerWD - Before find element --> By.xpath: //b[text()='Save']
+13:39:55.373  INFO  manager.ListenerWD - After find element --> By.xpath: //b[text()='Save']
+13:39:55.396  INFO  manager.ListenerWD - Test ends with error
+13:39:55.396  INFO  manager.ListenerWD - ===================================
+13:39:55.396  INFO  manager.ListenerWD - Method name--> alert
+13:39:55.396  INFO  manager.ListenerWD - ===================================
+13:39:55.396  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee38dd18ba5f621b4450e4b7bba7e59a, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61332/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ee38dd18ba5f621b4450e4b7bba7e59a
+13:39:55.396  INFO  manager.ListenerWD - ===================================
+13:39:55.396  INFO  manager.ListenerWD - Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@1aaaabd1
+13:39:55.396  INFO  manager.ListenerWD - ===================================
+13:39:55.908  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: a[href='/add'][class='active']
+13:39:55.914  INFO  manager.ListenerWD - After find elements --> By.cssSelector: a[href='/add'][class='active']
+13:39:55.914  INFO  manager.ListenerWD - List size is --> 1
+13:39:55.914  INFO  tests.TestBase - Test passed with success
+13:39:55.914  INFO  manager.ListenerTNG - onTestSuccess name --> addNewContactPhoneNull
+13:39:55.915  INFO  tests.TestBase - The name of method is -->addNewContactPhoneSpecialChars
+13:39:55.915  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:39:55.923  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:39:55.923  INFO  manager.ListenerWD - List size is --> 1
+13:39:55.923  INFO  manager.ListenerTNG - onTestStart name --> addNewContactPhoneSpecialChars
+13:39:55.923  INFO  tests.TestBase - Test started with phone: 086$4667876
+13:39:55.923  INFO  manager.ListenerWD - Before find element --> By.xpath: //a[@href='/add']
+13:39:55.930  INFO  manager.ListenerWD - After find element --> By.xpath: //a[@href='/add']
+13:39:55.952  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Name']
+13:39:55.958  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Name']
+13:39:56.014  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:56.023  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:56.075  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Phone']
+13:39:56.082  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Phone']
+13:39:56.133  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='email']
+13:39:56.140  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='email']
+13:39:56.195  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Address']
+13:39:56.202  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Address']
+13:39:56.250  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='description']
+13:39:56.257  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='description']
+13:39:56.311  INFO  manager.ListenerWD - Before find element --> By.xpath: //b[text()='Save']
+13:39:56.317  INFO  manager.ListenerWD - After find element --> By.xpath: //b[text()='Save']
+13:39:56.341  INFO  manager.ListenerWD - Test ends with error
+13:39:56.341  INFO  manager.ListenerWD - ===================================
+13:39:56.341  INFO  manager.ListenerWD - Method name--> alert
+13:39:56.341  INFO  manager.ListenerWD - ===================================
+13:39:56.341  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee38dd18ba5f621b4450e4b7bba7e59a, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61332/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ee38dd18ba5f621b4450e4b7bba7e59a
+13:39:56.341  INFO  manager.ListenerWD - ===================================
+13:39:56.341  INFO  manager.ListenerWD - Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@3c4c7e51
+13:39:56.341  INFO  manager.ListenerWD - ===================================
+13:39:56.851  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: a[href='/add'][class='active']
+13:39:56.858  INFO  manager.ListenerWD - After find elements --> By.cssSelector: a[href='/add'][class='active']
+13:39:56.858  INFO  manager.ListenerWD - List size is --> 1
+13:39:56.858  INFO  tests.TestBase - Test passed with success
+13:39:56.858  INFO  manager.ListenerTNG - onTestSuccess name --> addNewContactPhoneSpecialChars
+13:39:56.859  INFO  tests.TestBase - The name of method is -->addNewContactSuccess
+13:39:56.859  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:39:56.866  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:39:56.866  INFO  manager.ListenerWD - List size is --> 1
+13:39:56.866  INFO  manager.ListenerTNG - onTestStart name --> addNewContactSuccess
+13:39:56.879  INFO  tests.TestBase - Test started with data: Contact(name=Alina1283, lastName=White, phone=0865341283, email=alinaw1283@gmail.com, address=Kyiv, Ukraine, description=Childhood friend)
+13:39:56.879  INFO  manager.ListenerWD - Before find element --> By.xpath: //a[@href='/add']
+13:39:56.887  INFO  manager.ListenerWD - After find element --> By.xpath: //a[@href='/add']
+13:39:56.909  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Name']
+13:39:56.918  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Name']
+13:39:56.972  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:56.980  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Last Name']
+13:39:57.032  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Phone']
+13:39:57.039  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Phone']
+13:39:57.093  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='email']
+13:39:57.100  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='email']
+13:39:57.154  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Address']
+13:39:57.161  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Address']
+13:39:57.213  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='description']
+13:39:57.219  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='description']
+13:39:57.273  INFO  manager.ListenerWD - Before find element --> By.xpath: //b[text()='Save']
+13:39:57.279  INFO  manager.ListenerWD - After find element --> By.xpath: //b[text()='Save']
+13:39:57.299  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: h2
+13:39:58.126  INFO  manager.ListenerWD - After find elements --> By.cssSelector: h2
+13:39:58.126  INFO  manager.ListenerWD - List size is --> 94
+13:39:58.913  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: h3
+13:39:59.093  INFO  manager.ListenerWD - After find elements --> By.cssSelector: h3
+13:39:59.093  INFO  manager.ListenerWD - List size is --> 94
+13:40:00.009  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: h2
+13:40:00.159  INFO  manager.ListenerWD - After find elements --> By.cssSelector: h2
+13:40:00.159  INFO  manager.ListenerWD - List size is --> 94
+13:40:00.553  INFO  manager.ListenerWD - Before find element --> By.xpath: //div[starts-with(@class,'contact-item-detailed_card')]
+13:40:00.563  INFO  manager.ListenerWD - After find element --> By.xpath: //div[starts-with(@class,'contact-item-detailed_card')]
+13:40:00.575  INFO  tests.TestBase - Test passed with success
+13:40:00.576  INFO  manager.ListenerTNG - onTestSuccess name --> addNewContactSuccess
+13:40:00.577  INFO  tests.TestBase - The name of method is -->addNewContactSuccessRequiredFields
+13:40:00.577  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:00.583  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:00.583  INFO  manager.ListenerWD - List size is --> 1
+13:40:00.583  INFO  manager.ListenerTNG - onTestStart name --> addNewContactSuccessRequiredFields
+13:40:00.584  INFO  tests.TestBase - Test started with data: Contact(name=Alina1201, lastName=White, phone=0865341201, email=alinaw1201@gmail.com, address=Kyiv, Ukraine, description=null)
+13:40:00.584  INFO  manager.ListenerWD - Before find element --> By.xpath: //a[@href='/add']
+13:40:00.591  INFO  manager.ListenerWD - After find element --> By.xpath: //a[@href='/add']
+13:40:00.620  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Name']
+13:40:00.626  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Name']
+13:40:00.709  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Last Name']
+13:40:00.715  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Last Name']
+13:40:00.788  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Phone']
+13:40:00.795  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Phone']
+13:40:00.870  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='email']
+13:40:00.876  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='email']
+13:40:00.954  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Address']
+13:40:00.960  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Address']
+13:40:01.034  INFO  manager.ListenerWD - Before find element --> By.xpath: //b[text()='Save']
+13:40:01.040  INFO  manager.ListenerWD - After find element --> By.xpath: //b[text()='Save']
+13:40:01.076  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: h2
+13:40:01.867  INFO  manager.ListenerWD - After find elements --> By.cssSelector: h2
+13:40:01.867  INFO  manager.ListenerWD - List size is --> 95
+13:40:03.002  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: h3
+13:40:03.175  INFO  manager.ListenerWD - After find elements --> By.cssSelector: h3
+13:40:03.175  INFO  manager.ListenerWD - List size is --> 95
+13:40:04.448  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: h2
+13:40:04.605  INFO  manager.ListenerWD - After find elements --> By.cssSelector: h2
+13:40:04.605  INFO  manager.ListenerWD - List size is --> 95
+13:40:05.139  INFO  manager.ListenerWD - Before find element --> By.xpath: //div[starts-with(@class,'contact-item-detailed_card')]
+13:40:05.146  INFO  manager.ListenerWD - After find element --> By.xpath: //div[starts-with(@class,'contact-item-detailed_card')]
+13:40:05.162  INFO  tests.TestBase - Test passed with success
+13:40:05.163  INFO  manager.ListenerTNG - onTestSuccess name --> addNewContactSuccessRequiredFields
+13:40:05.163  INFO  tests.TestBase - The name of method is -->addNewContactTwoAtEmail
+13:40:05.163  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:05.169  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:05.169  INFO  manager.ListenerWD - List size is --> 1
+13:40:05.169  INFO  manager.ListenerTNG - onTestStart name --> addNewContactTwoAtEmail
+13:40:05.169  INFO  tests.TestBase - Test started with email: alinaw1732@@gmail.com
+13:40:05.170  INFO  manager.ListenerWD - Before find element --> By.xpath: //a[@href='/add']
+13:40:05.176  INFO  manager.ListenerWD - After find element --> By.xpath: //a[@href='/add']
+13:40:05.197  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Name']
+13:40:05.204  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Name']
+13:40:05.298  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Last Name']
+13:40:05.304  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Last Name']
+13:40:05.397  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Phone']
+13:40:05.403  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Phone']
+13:40:05.484  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='email']
+13:40:05.491  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='email']
+13:40:05.589  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Address']
+13:40:05.595  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Address']
+13:40:05.684  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='description']
+13:40:05.695  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='description']
+13:40:05.786  INFO  manager.ListenerWD - Before find element --> By.xpath: //b[text()='Save']
+13:40:05.792  INFO  manager.ListenerWD - After find element --> By.xpath: //b[text()='Save']
+13:40:05.839  INFO  manager.ListenerWD - Test ends with error
+13:40:05.839  INFO  manager.ListenerWD - ===================================
+13:40:05.839  INFO  manager.ListenerWD - Method name--> alert
+13:40:05.839  INFO  manager.ListenerWD - ===================================
+13:40:05.840  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee38dd18ba5f621b4450e4b7bba7e59a, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61332/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ee38dd18ba5f621b4450e4b7bba7e59a
+13:40:05.840  INFO  manager.ListenerWD - ===================================
+13:40:05.840  INFO  manager.ListenerWD - Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@238a7e3d
+13:40:05.840  INFO  manager.ListenerWD - ===================================
+13:40:06.348  INFO  tests.TestBase - Test passed with success
+13:40:06.348  INFO  manager.ListenerTNG - onTestSuccess name --> addNewContactTwoAtEmail
+13:40:06.348  INFO  tests.TestBase - The name of method is -->addNewContactWrongEmail
+13:40:06.348  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:06.355  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:06.355  INFO  manager.ListenerWD - List size is --> 1
+13:40:06.355  INFO  manager.ListenerTNG - onTestStart name --> addNewContactWrongEmail
+13:40:06.355  INFO  tests.TestBase - Test started with email: alinaw1762gmail.com
+13:40:06.355  INFO  manager.ListenerWD - Before find element --> By.xpath: //a[@href='/add']
+13:40:06.361  INFO  manager.ListenerWD - After find element --> By.xpath: //a[@href='/add']
+13:40:06.391  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Name']
+13:40:06.398  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Name']
+13:40:06.456  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Last Name']
+13:40:06.462  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Last Name']
+13:40:06.523  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Phone']
+13:40:06.529  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Phone']
+13:40:06.587  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='email']
+13:40:06.593  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='email']
+13:40:06.653  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Address']
+13:40:06.660  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Address']
+13:40:06.720  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='description']
+13:40:06.726  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='description']
+13:40:06.789  INFO  manager.ListenerWD - Before find element --> By.xpath: //b[text()='Save']
+13:40:06.795  INFO  manager.ListenerWD - After find element --> By.xpath: //b[text()='Save']
+13:40:06.818  INFO  manager.ListenerWD - Test ends with error
+13:40:06.818  INFO  manager.ListenerWD - ===================================
+13:40:06.818  INFO  manager.ListenerWD - Method name--> alert
+13:40:06.818  INFO  manager.ListenerWD - ===================================
+13:40:06.818  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee38dd18ba5f621b4450e4b7bba7e59a, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61332/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ee38dd18ba5f621b4450e4b7bba7e59a
+13:40:06.818  INFO  manager.ListenerWD - ===================================
+13:40:06.818  INFO  manager.ListenerWD - Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@7bc4ac3e
+13:40:06.818  INFO  manager.ListenerWD - ===================================
+13:40:07.327  INFO  tests.TestBase - Test passed with success
+13:40:07.327  INFO  manager.ListenerTNG - onTestSuccess name --> addNewContactWrongEmail
+13:40:07.329  INFO  tests.TestBase - The name of method is -->loginSuccess
+13:40:07.329  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:07.335  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:07.335  INFO  manager.ListenerWD - List size is --> 1
+13:40:07.335  INFO  manager.ListenerWD - Before find element --> By.xpath: //button[text()='Sign Out']
+13:40:07.347  INFO  manager.ListenerWD - After find element --> By.xpath: //button[text()='Sign Out']
+13:40:07.394  INFO  tests.TestBase - Need logout
+13:40:07.395  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess
+13:40:07.398  INFO  tests.TestBase - Login with valid data: email - kate@gmail.com, password - Kkate12345$
+13:40:07.398  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+13:40:07.410  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+13:40:07.452  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+13:40:07.461  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+13:40:07.562  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+13:40:07.574  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+13:40:07.679  INFO  manager.ListenerWD - Before find element --> By.cssSelector: button[name='login']
+13:40:07.691  INFO  manager.ListenerWD - After find element --> By.cssSelector: button[name='login']
+13:40:07.740  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:08.061  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:08.061  INFO  manager.ListenerWD - List size is --> 1
+13:40:08.061  INFO  tests.TestBase - Test passed with success
+13:40:08.061  INFO  manager.ListenerTNG - onTestSuccess name --> loginSuccess
+13:40:08.061  INFO  tests.TestBase - The name of method is -->loginSuccess
+13:40:08.061  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:08.067  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:08.067  INFO  manager.ListenerWD - List size is --> 1
+13:40:08.067  INFO  manager.ListenerWD - Before find element --> By.xpath: //button[text()='Sign Out']
+13:40:08.072  INFO  manager.ListenerWD - After find element --> By.xpath: //button[text()='Sign Out']
+13:40:08.126  INFO  tests.TestBase - Need logout
+13:40:08.126  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess
+13:40:08.126  INFO  tests.TestBase - Login with valid data: email - kate@gmail.com, password - Kkate12345$
+13:40:08.126  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+13:40:08.132  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+13:40:08.183  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+13:40:08.190  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+13:40:08.298  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+13:40:08.304  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+13:40:08.405  INFO  manager.ListenerWD - Before find element --> By.cssSelector: button[name='login']
+13:40:08.412  INFO  manager.ListenerWD - After find element --> By.cssSelector: button[name='login']
+13:40:08.463  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:08.787  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:08.788  INFO  manager.ListenerWD - List size is --> 1
+13:40:08.788  INFO  tests.TestBase - Test passed with success
+13:40:08.788  INFO  manager.ListenerTNG - onTestSuccess name --> loginSuccess
+13:40:08.788  INFO  tests.TestBase - The name of method is -->loginSuccess
+13:40:08.788  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:08.794  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:08.794  INFO  manager.ListenerWD - List size is --> 1
+13:40:08.794  INFO  manager.ListenerWD - Before find element --> By.xpath: //button[text()='Sign Out']
+13:40:08.799  INFO  manager.ListenerWD - After find element --> By.xpath: //button[text()='Sign Out']
+13:40:08.851  INFO  tests.TestBase - Need logout
+13:40:08.852  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess
+13:40:08.852  INFO  tests.TestBase - Login with valid data: email - kate@gmail.com, password - Kkate12345$
+13:40:08.852  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+13:40:08.858  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+13:40:08.908  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+13:40:08.914  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+13:40:09.040  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+13:40:09.047  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+13:40:09.161  INFO  manager.ListenerWD - Before find element --> By.cssSelector: button[name='login']
+13:40:09.167  INFO  manager.ListenerWD - After find element --> By.cssSelector: button[name='login']
+13:40:09.220  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:09.544  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:09.545  INFO  manager.ListenerWD - List size is --> 1
+13:40:09.545  INFO  tests.TestBase - Test passed with success
+13:40:09.545  INFO  manager.ListenerTNG - onTestSuccess name --> loginSuccess
+13:40:09.545  INFO  tests.TestBase - The name of method is -->loginSuccess2
+13:40:09.545  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:09.551  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:09.551  INFO  manager.ListenerWD - List size is --> 1
+13:40:09.551  INFO  manager.ListenerWD - Before find element --> By.xpath: //button[text()='Sign Out']
+13:40:09.556  INFO  manager.ListenerWD - After find element --> By.xpath: //button[text()='Sign Out']
+13:40:09.599  INFO  tests.TestBase - Need logout
+13:40:09.599  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess2
+13:40:09.600  INFO  tests.TestBase - Login with valid data: email - kate@gmail.com, password - Kkate12345$
+13:40:09.600  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+13:40:09.606  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+13:40:09.661  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+13:40:09.667  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+13:40:09.779  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+13:40:09.785  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+13:40:09.897  INFO  manager.ListenerWD - Before find element --> By.cssSelector: button[name='login']
+13:40:09.903  INFO  manager.ListenerWD - After find element --> By.cssSelector: button[name='login']
+13:40:09.958  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:10.282  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:10.282  INFO  manager.ListenerWD - List size is --> 1
+13:40:10.282  INFO  tests.TestBase - Test passed with success
+13:40:10.282  INFO  manager.ListenerTNG - onTestSuccess name --> loginSuccess2
+13:40:10.282  INFO  tests.TestBase - The name of method is -->loginSuccess2
+13:40:10.283  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:10.288  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:10.288  INFO  manager.ListenerWD - List size is --> 1
+13:40:10.288  INFO  manager.ListenerWD - Before find element --> By.xpath: //button[text()='Sign Out']
+13:40:10.294  INFO  manager.ListenerWD - After find element --> By.xpath: //button[text()='Sign Out']
+13:40:10.350  INFO  tests.TestBase - Need logout
+13:40:10.350  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess2
+13:40:10.350  INFO  tests.TestBase - Login with valid data: email - kate@gmail.com, password - Kkate12345$
+13:40:10.350  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+13:40:10.357  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+13:40:10.412  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+13:40:10.419  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+13:40:10.530  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+13:40:10.537  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+13:40:10.647  INFO  manager.ListenerWD - Before find element --> By.cssSelector: button[name='login']
+13:40:10.654  INFO  manager.ListenerWD - After find element --> By.cssSelector: button[name='login']
+13:40:10.709  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:11.032  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:11.032  INFO  manager.ListenerWD - List size is --> 1
+13:40:11.032  INFO  tests.TestBase - Test passed with success
+13:40:11.032  INFO  manager.ListenerTNG - onTestSuccess name --> loginSuccess2
+13:40:11.032  INFO  tests.TestBase - The name of method is -->loginSuccess2
+13:40:11.033  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:11.038  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:11.038  INFO  manager.ListenerWD - List size is --> 1
+13:40:11.038  INFO  manager.ListenerWD - Before find element --> By.xpath: //button[text()='Sign Out']
+13:40:11.044  INFO  manager.ListenerWD - After find element --> By.xpath: //button[text()='Sign Out']
+13:40:11.099  INFO  tests.TestBase - Need logout
+13:40:11.100  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess2
+13:40:11.100  INFO  tests.TestBase - Login with valid data: email - kate@gmail.com, password - Kkate12345$
+13:40:11.100  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+13:40:11.106  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+13:40:11.160  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+13:40:11.166  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+13:40:11.301  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+13:40:11.307  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+13:40:11.440  INFO  manager.ListenerWD - Before find element --> By.cssSelector: button[name='login']
+13:40:11.446  INFO  manager.ListenerWD - After find element --> By.cssSelector: button[name='login']
+13:40:11.508  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:11.831  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:11.832  INFO  manager.ListenerWD - List size is --> 1
+13:40:11.832  INFO  tests.TestBase - Test passed with success
+13:40:11.832  INFO  manager.ListenerTNG - onTestSuccess name --> loginSuccess2
+13:40:11.832  INFO  tests.TestBase - The name of method is -->loginSuccess2
+13:40:11.832  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:11.838  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:11.838  INFO  manager.ListenerWD - List size is --> 1
+13:40:11.838  INFO  manager.ListenerWD - Before find element --> By.xpath: //button[text()='Sign Out']
+13:40:11.844  INFO  manager.ListenerWD - After find element --> By.xpath: //button[text()='Sign Out']
+13:40:11.899  INFO  tests.TestBase - Need logout
+13:40:11.900  INFO  manager.ListenerTNG - onTestStart name --> loginSuccess2
+13:40:11.903  INFO  tests.TestBase - Login with valid data: User(email=kate@gmail.com, password=Kkate12345$)
+13:40:11.903  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+13:40:11.909  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+13:40:11.967  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+13:40:11.973  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+13:40:12.091  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+13:40:12.097  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+13:40:12.207  INFO  manager.ListenerWD - Before find element --> By.cssSelector: button[name='login']
+13:40:12.213  INFO  manager.ListenerWD - After find element --> By.cssSelector: button[name='login']
+13:40:12.264  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:12.590  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:12.590  INFO  manager.ListenerWD - List size is --> 1
+13:40:12.590  INFO  tests.TestBase - Test passed with success
+13:40:12.590  INFO  manager.ListenerTNG - onTestSuccess name --> loginSuccess2
+13:40:12.591  INFO  tests.TestBase - The name of method is -->loginSuccessModelFormFile
+13:40:12.591  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:12.597  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:12.597  INFO  manager.ListenerWD - List size is --> 1
+13:40:12.597  INFO  manager.ListenerWD - Before find element --> By.xpath: //button[text()='Sign Out']
+13:40:12.603  INFO  manager.ListenerWD - After find element --> By.xpath: //button[text()='Sign Out']
+13:40:12.667  INFO  tests.TestBase - Need logout
+13:40:12.667  INFO  manager.ListenerTNG - onTestStart name --> loginSuccessModelFormFile
+13:40:12.667  INFO  tests.TestBase - Login with valid data: User(email=kate@gmail.com, password=Kkate12345$)
+13:40:12.667  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+13:40:12.674  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+13:40:12.733  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+13:40:12.739  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+13:40:12.865  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+13:40:12.871  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+13:40:12.993  INFO  manager.ListenerWD - Before find element --> By.cssSelector: button[name='login']
+13:40:12.999  INFO  manager.ListenerWD - After find element --> By.cssSelector: button[name='login']
+13:40:13.056  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:13.379  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:13.379  INFO  manager.ListenerWD - List size is --> 1
+13:40:13.379  INFO  tests.TestBase - Test passed with success
+13:40:13.379  INFO  manager.ListenerTNG - onTestSuccess name --> loginSuccessModelFormFile
+13:40:13.379  INFO  tests.TestBase - The name of method is -->loginUnregisteredUser
+13:40:13.380  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:13.385  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:13.385  INFO  manager.ListenerWD - List size is --> 1
+13:40:13.385  INFO  manager.ListenerWD - Before find element --> By.xpath: //button[text()='Sign Out']
+13:40:13.391  INFO  manager.ListenerWD - After find element --> By.xpath: //button[text()='Sign Out']
+13:40:13.444  INFO  tests.TestBase - Need logout
+13:40:13.444  INFO  manager.ListenerTNG - onTestStart name --> loginUnregisteredUser
+13:40:13.444  INFO  tests.TestBase - Test starts with email: sddffhgj@gmail.com
+13:40:13.444  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+13:40:13.450  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+13:40:13.495  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+13:40:13.501  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+13:40:13.600  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+13:40:13.606  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+13:40:13.731  INFO  manager.ListenerWD - Before find element --> By.cssSelector: button[name='login']
+13:40:13.737  INFO  manager.ListenerWD - After find element --> By.cssSelector: button[name='login']
+13:40:13.796  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:14.222  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:14.222  INFO  manager.ListenerWD - List size is --> 0
+13:40:14.226  INFO  tests.TestBase - Test passed with success
+13:40:14.227  INFO  manager.ListenerTNG - onTestSuccess name --> loginUnregisteredUser
+13:40:14.227  INFO  tests.TestBase - The name of method is -->loginWrongEmail
+13:40:14.227  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:19.277  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:19.277  INFO  manager.ListenerWD - List size is --> 0
+13:40:19.277  INFO  manager.ListenerTNG - onTestStart name --> loginWrongEmail
+13:40:19.277  INFO  tests.TestBase - Test starts with email: kateagmail.com
+13:40:19.277  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+13:40:19.283  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+13:40:19.307  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+13:40:19.313  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+13:40:19.455  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+13:40:19.461  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+13:40:19.536  INFO  manager.ListenerWD - Before find element --> By.cssSelector: button[name='login']
+13:40:19.541  INFO  manager.ListenerWD - After find element --> By.cssSelector: button[name='login']
+13:40:19.573  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:19.997  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:19.997  INFO  manager.ListenerWD - List size is --> 0
+13:40:20.002  INFO  tests.TestBase - Test passed with success
+13:40:20.002  INFO  manager.ListenerTNG - onTestSuccess name --> loginWrongEmail
+13:40:20.003  INFO  tests.TestBase - The name of method is -->loginWrongPassword
+13:40:20.003  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:25.058  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:25.058  INFO  manager.ListenerWD - List size is --> 0
+13:40:25.059  INFO  manager.ListenerTNG - onTestStart name --> loginWrongPassword
+13:40:25.059  INFO  tests.TestBase - Test starts with password: ka123
+13:40:25.059  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+13:40:25.065  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+13:40:25.088  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+13:40:25.094  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+13:40:25.170  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+13:40:25.176  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+13:40:25.246  INFO  manager.ListenerWD - Before find element --> By.cssSelector: button[name='login']
+13:40:25.252  INFO  manager.ListenerWD - After find element --> By.cssSelector: button[name='login']
+13:40:25.283  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:25.707  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:25.707  INFO  manager.ListenerWD - List size is --> 0
+13:40:25.712  INFO  tests.TestBase - Test passed with success
+13:40:25.712  INFO  manager.ListenerTNG - onTestSuccess name --> loginWrongPassword
+13:40:25.712  INFO  tests.TestBase - The name of method is -->registrationSuccess
+13:40:25.713  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:30.716  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:30.716  INFO  manager.ListenerWD - List size is --> 0
+13:40:30.716  INFO  manager.ListenerTNG - onTestStart name --> registrationSuccess
+13:40:30.716  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+13:40:30.722  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+13:40:30.744  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+13:40:30.751  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+13:40:30.827  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+13:40:30.833  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+13:40:30.909  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+13:40:30.918  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+13:40:30.948  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:31.481  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:31.481  INFO  manager.ListenerWD - List size is --> 1
+13:40:31.481  INFO  manager.ListenerTNG - onTestSuccess name --> registrationSuccess
+13:40:31.481  INFO  tests.TestBase - The name of method is -->registrationUserAlreadyExists
+13:40:31.482  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:31.487  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:31.487  INFO  manager.ListenerWD - List size is --> 1
+13:40:31.487  INFO  manager.ListenerWD - Before find element --> By.xpath: //button[text()='Sign Out']
+13:40:31.494  INFO  manager.ListenerWD - After find element --> By.xpath: //button[text()='Sign Out']
+13:40:31.526  INFO  manager.ListenerTNG - onTestStart name --> registrationUserAlreadyExists
+13:40:31.526  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+13:40:31.533  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+13:40:31.561  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+13:40:31.567  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+13:40:31.636  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+13:40:31.642  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+13:40:31.711  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+13:40:31.717  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+13:40:31.746  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:31.961  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:31.961  INFO  manager.ListenerWD - List size is --> 0
+13:40:31.966  INFO  manager.ListenerTNG - onTestSuccess name --> registrationUserAlreadyExists
+13:40:31.966  INFO  tests.TestBase - The name of method is -->registrationWrongEmail
+13:40:31.967  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:37.020  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:37.020  INFO  manager.ListenerWD - List size is --> 0
+13:40:37.020  INFO  manager.ListenerTNG - onTestStart name --> registrationWrongEmail
+13:40:37.021  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+13:40:37.026  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+13:40:37.047  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+13:40:37.053  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+13:40:37.122  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+13:40:37.129  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+13:40:37.202  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+13:40:37.209  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+13:40:37.243  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:37.457  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:37.457  INFO  manager.ListenerWD - List size is --> 0
+13:40:37.463  INFO  manager.ListenerTNG - onTestSuccess name --> registrationWrongEmail
+13:40:37.464  INFO  tests.TestBase - The name of method is -->registrationWrongPassword
+13:40:37.464  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:42.467  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:42.467  INFO  manager.ListenerWD - List size is --> 0
+13:40:42.467  INFO  manager.ListenerTNG - onTestStart name --> registrationWrongPassword
+13:40:42.467  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+13:40:42.473  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+13:40:42.494  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+13:40:42.500  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+13:40:42.572  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+13:40:42.578  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+13:40:42.646  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+13:40:42.652  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+13:40:42.680  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:40:42.894  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+13:40:42.894  INFO  manager.ListenerWD - List size is --> 0
+13:40:42.900  INFO  manager.ListenerTNG - onTestSuccess name --> registrationWrongPassword
+13:40:42.901  INFO  manager.ListenerTNG - onFinish name --> Gradle test

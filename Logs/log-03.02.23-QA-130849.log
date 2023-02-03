@@ -1,0 +1,45 @@
+13:08:52.285  INFO  manager.ApplicationManager - All tests start in Firefox Browser
+13:08:53.752  INFO  manager.ApplicationManager - Current url -->https://telranedu.web.app/home
+13:08:53.776  INFO  tests.TestBase - The name of method is -->addNewContactSuccess
+13:08:53.777  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:08:54.480  INFO  manager.ListenerWD - Test ends with error
+13:08:54.480  INFO  manager.ListenerWD - ===================================
+13:08:54.480  INFO  manager.ListenerWD - Method name--> findElements
+13:08:54.480  INFO  manager.ListenerWD - ===================================
+13:08:54.481  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.WebDriverException: TypeError: browsingContext.currentWindowGlobal is null
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [badd3eff-4eed-4bed-bebb-f34ed844cca8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:19909, moz:geckodriverVersion: 0.32.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6632, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:19909/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: badd3eff-4eed-4bed-bebb-f34ed844cca8
+13:08:54.482  INFO  manager.ListenerWD - ===================================
+13:08:54.482  INFO  manager.ListenerWD - Object target --> FirefoxDriver: firefox on WINDOWS (badd3eff-4eed-4bed-bebb-f34ed844cca8)
+13:08:54.482  INFO  manager.ListenerWD - ===================================
+13:08:54.506  INFO  tests.TestBase - The name of method is -->registrationSuccess
+13:08:54.507  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+13:08:54.523  INFO  manager.ListenerWD - Test ends with error
+13:08:54.523  INFO  manager.ListenerWD - ===================================
+13:08:54.523  INFO  manager.ListenerWD - Method name--> findElements
+13:08:54.523  INFO  manager.ListenerWD - ===================================
+13:08:54.523  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [badd3eff-4eed-4bed-bebb-f34ed844cca8, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:19909, moz:geckodriverVersion: 0.32.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6632, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:19909/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: badd3eff-4eed-4bed-bebb-f34ed844cca8
+13:08:54.523  INFO  manager.ListenerWD - ===================================
+13:08:54.524  INFO  manager.ListenerWD - Object target --> FirefoxDriver: firefox on WINDOWS (badd3eff-4eed-4bed-bebb-f34ed844cca8)
+13:08:54.524  INFO  manager.ListenerWD - ===================================
+13:08:54.542  INFO  manager.ListenerWD - Test ends with error
+13:08:54.543  INFO  manager.ListenerWD - ===================================
+13:08:54.543  INFO  manager.ListenerWD - Method name--> quit
+13:08:54.543  INFO  manager.ListenerWD - ===================================
+13:08:54.543  INFO  manager.ListenerWD - InvocationTargetException cause--> org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://127.0.0.1:19909/devtools/browser/c56fb7fa-5af4-435b-bfce-311a4398dc7c
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: driver.version: FirefoxDriver
+13:08:54.544  INFO  manager.ListenerWD - ===================================
+13:08:54.544  INFO  manager.ListenerWD - Object target --> FirefoxDriver: firefox on WINDOWS (null)
+13:08:54.544  INFO  manager.ListenerWD - ===================================
