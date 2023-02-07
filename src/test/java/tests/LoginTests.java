@@ -89,7 +89,7 @@ public class LoginTests extends TestBase {
 
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void loginWrongEmail() {
         User user = User.builder().email("kateagmail.com").password("Kkate12345$").build();
         logger.info("Test starts with email: " + user.getEmail());

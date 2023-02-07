@@ -13,7 +13,7 @@ public class RegistrationTests extends TestBase{
             app.getHelperUser().logout();
         }
     }
-    @Test(groups = "smoke")
+    @Test(groups = {"smoke", "task"})
     public void registrationSuccess(){
         Random random = new Random();
         int i = random.nextInt(100);

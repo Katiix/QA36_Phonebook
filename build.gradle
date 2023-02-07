@@ -53,3 +53,17 @@ task qa(type: Test){
     }
 
 }
+task qa2(type: Test){
+    useTestNG(){
+        def groups = System.getProperty('groups')
+        if (groups != null) {
+            includeGroups groups
+        }
+
+        suites 'src/test/resources/testnew.xml'
+    }
+    if(project.hasProperty('browser')){
+        systemProperty 'browser', "${browser}"
+    }
+
+}
