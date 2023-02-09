@@ -29,7 +29,8 @@ public class RegistrationTests extends TestBase{
     @Test
     public void registrationWrongEmail(){
         app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillLoginRegistrationForm("catgmail.com","Kkate12345$");
+        app.getHelperUser().fillRegistrationForm("Kate", "Black", "catgmail.com","Kkate12345$");
+
         app.getHelperUser().submitRegistration ();
         Assert.assertFalse(app.getHelperUser().isLogged());
         Assert.assertTrue(app.getHelperUser().isErrorMessageDisplayed("Wrong email or password format"));

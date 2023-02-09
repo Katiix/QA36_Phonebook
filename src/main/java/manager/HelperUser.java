@@ -71,4 +71,11 @@ public class HelperUser extends HelperBase {
         submitLogin();
 
     }
+
+    public void fillRegistrationForm(User user) {
+        type(By.id("name"),user.getName());
+        type(By.id("lastName"),user.getLastName());
+        type(By.id("email"),user.getEmail());
+        type(By.id("password"),user.getPassword());
+    }
 }

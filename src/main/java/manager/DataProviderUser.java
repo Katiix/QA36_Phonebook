@@ -19,9 +19,16 @@ public class DataProviderUser {
     }
 
     @DataProvider
+    public Iterator<Object[]> xxxx(){
+        List<Object[]> list = new ArrayList<>();
+
+
+        return list.iterator();
+    }
+    @DataProvider
     public Iterator<Object[]> loginDataUser(){
         List<Object[]> list = new ArrayList<>();
-        list.add(new Object[]{User.builder().email("kate@gmail.com").password("Kkate12345$").build()});
+        list.add(new Object[]{new User().withEmail("kate@gmail.com").withPassword("Kkate12345$")});
         
         return list.iterator();
     }
@@ -32,7 +39,7 @@ public class DataProviderUser {
         String line = bufferedReader.readLine();
         while (line!=null){
             String[] split = line.split(",");
-            list.add(new Object[]{User.builder().email(split[0]).password(split[1]).build()});
+            list.add(new Object[]{new User().withEmail(split[0]).withPassword(split[1])});
             line = bufferedReader.readLine();
         }
         return list.iterator();

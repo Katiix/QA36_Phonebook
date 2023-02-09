@@ -81,7 +81,7 @@ public class LoginTests extends TestBase {
     }
 
     public void loginSuccessModel() {
-        User user = User.builder().email("kate@gmail.com").password("Kkate12345$").build();
+        User user =  new User().withEmail("kate@gmail.com").withPassword("Kkate12345$");
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
         app.getHelperUser().submitLogin();
@@ -91,7 +91,7 @@ public class LoginTests extends TestBase {
 
     @Test(groups = {"smoke"})
     public void loginWrongEmail() {
-        User user = User.builder().email("kateagmail.com").password("Kkate12345$").build();
+        User user =  new User().withEmail("kategmail.com").withPassword("Kkate12345$");
         logger.info("Test starts with email: " + user.getEmail());
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
@@ -103,7 +103,8 @@ public class LoginTests extends TestBase {
 
     @Test
     public void loginWrongPassword() {
-        User user = User.builder().email("kateagmail.com").password("ka123").build();
+        User user =  new User().withEmail("kate@gmail.com").withPassword("kat123");
+
         logger.info("Test starts with password: " + user.getPassword());
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm("kate@gmail.com", "ka123");
@@ -115,7 +116,8 @@ public class LoginTests extends TestBase {
 
     @Test
     public void loginUnregisteredUser() {
-        User user = User.builder().email("sddffhgj@gmail.com").password("Kkate12345$").build();
+        User user =  new User().withEmail("sddgffgh@gmail.com").withPassword("Kkate12345$");
+
         logger.info("Test starts with email: " + user.getEmail());
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
