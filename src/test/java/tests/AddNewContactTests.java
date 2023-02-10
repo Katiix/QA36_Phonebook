@@ -12,7 +12,7 @@ public class AddNewContactTests extends TestBase {
     @BeforeMethod(alwaysRun = true)
     public void preCondition(){
         if(!app.getHelperUser().isLogged()){
-            app.getHelperUser().login(User.builder().email("kate@gmail.com").password("Kkate12345$").build());
+            app.getHelperUser().login(new User().withEmail("kate@gmail.com").withPassword("Kkate12345$"));
         }
     }
     @Test(groups={"smoke"})
