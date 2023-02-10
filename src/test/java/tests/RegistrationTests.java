@@ -1,5 +1,6 @@
 package tests;
 
+import model.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -29,7 +30,7 @@ public class RegistrationTests extends TestBase{
     @Test
     public void registrationWrongEmail(){
         app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillRegistrationForm("Kate", "Black", "catgmail.com","Kkate12345$");
+        app.getHelperUser().fillRegistrationForm(new User().withName("Kate").withLastName("Black").withEmail("catgmail.com").withPassword("Kkate12345$"));
 
         app.getHelperUser().submitRegistration ();
         Assert.assertFalse(app.getHelperUser().isLogged());
