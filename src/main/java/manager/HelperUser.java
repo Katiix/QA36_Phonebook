@@ -58,6 +58,7 @@ public class HelperUser extends HelperBase {
         return text.contains(message);
     }
 
+    //commit for jenkins
 
     public void submitRegistration() {
         WebElement el = new WebDriverWait(wd, Duration.ofSeconds(9))
