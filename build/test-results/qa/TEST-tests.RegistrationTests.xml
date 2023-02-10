@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.RegistrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-09T18:04:15" hostname="WIN-UK2CA3OCGGH" time="0.857">
+<testsuite name="tests.RegistrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-10T07:51:30" hostname="WIN-UK2CA3OCGGH" time="0.831">
   <properties/>
-  <testcase name="registrationSuccess" classname="tests.RegistrationTests" time="0.857"/>
-  <system-out><![CDATA[20:04:15.180  INFO  tests.TestBase - The name of method is -->registrationSuccess
-20:04:15.180  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
-20:04:15.189  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
-20:04:15.189  INFO  manager.ListenerWD - List size is --> 1
-20:04:15.189  INFO  manager.ListenerWD - Before find element --> By.xpath: //button[text()='Sign Out']
-20:04:15.201  INFO  manager.ListenerWD - After find element --> By.xpath: //button[text()='Sign Out']
-20:04:15.248  INFO  manager.ListenerTNG - onTestStart name --> registrationSuccess
-20:04:15.249  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
-20:04:15.257  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
-20:04:15.304  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
-20:04:15.312  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
-20:04:15.406  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
-20:04:15.416  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
-20:04:15.514  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
-20:04:15.526  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
-20:04:15.571  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
-20:04:16.105  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
-20:04:16.105  INFO  manager.ListenerWD - List size is --> 1
-20:04:16.105  INFO  manager.ListenerTNG - onTestSuccess name --> registrationSuccess
+  <testcase name="registrationSuccess" classname="tests.RegistrationTests" time="0.831"/>
+  <system-out><![CDATA[09:51:30.225  INFO  tests.TestBase - The name of method is -->registrationSuccess
+09:51:30.225  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+09:51:30.235  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+09:51:30.235  INFO  manager.ListenerWD - List size is --> 1
+09:51:30.235  INFO  manager.ListenerWD - Before find element --> By.xpath: //button[text()='Sign Out']
+09:51:30.246  INFO  manager.ListenerWD - After find element --> By.xpath: //button[text()='Sign Out']
+09:51:30.298  INFO  manager.ListenerTNG - onTestStart name --> registrationSuccess
+09:51:30.299  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+09:51:30.307  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+09:51:30.356  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='email']
+09:51:30.365  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='email']
+09:51:30.470  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[name='password']
+09:51:30.479  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[name='password']
+09:51:30.590  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+09:51:30.602  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+09:51:30.647  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+09:51:31.129  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+09:51:31.129  INFO  manager.ListenerWD - List size is --> 1
+09:51:31.130  INFO  manager.ListenerTNG - onTestSuccess name --> registrationSuccess
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
